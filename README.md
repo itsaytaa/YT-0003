@@ -1,5 +1,7 @@
 # Not Covered
 
+> **This repo is the build repo for Advisory 0003** ("If Your Washing Machine Ever Gives Back One Extra Sock… DO NOT WEAR IT"). Start with `advisories/0003-washing-machine/BUILD.md`.
+
 Studio repo for the YouTube channel **Not Covered**. It makes five-minute "rules horror" pictogram videos (Advisories from the fictional Department of Unlisted Risks), drawn in code with Remotion (React + SVG). The only AI-generated asset is the voice-over (OpenRouter).
 
 - `brand/`: the channel's identity, the shared look and sound, and the reference sheets. Start with `brand/BRAND.md`.

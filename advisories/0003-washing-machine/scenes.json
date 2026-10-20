@@ -1,0 +1,4456 @@
+{
+ "meta": {
+  "channel": "Not Covered",
+  "department": "Department of Unlisted Risks",
+  "departmentShort": "DUR",
+  "advisory": "0003",
+  "title": "If Your Washing Machine Ever Gives Back One Extra Sock… DO NOT WEAR IT",
+  "slug": "advisory-0003-washing-machine",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "leadInSec": 0.6,
+  "slipLines": [
+   "L066"
+  ],
+  "customElements": [
+   "washing-machine",
+   "sock",
+   "sock-pile",
+   "sock-basket",
+   "bin",
+   "drawers",
+   "steps",
+   "sock-feet"
+  ],
+  "customShots": [
+   "drum-view"
+  ],
+  "endCard": {
+   "shot": "END",
+   "holdSec": 3.0
+  },
+  "notes": "One line = one caption = one shot (unless transitionIn is 'hold', which keeps the previous shot on screen and applies the new shot's changes). Line timing comes from the generated voice audio. Episode assets: assets-spec.md."
+ },
+ "beats": [
+  {
+   "id": "cold_open",
+   "label": "Cold open"
+  },
+  {
+   "id": "teaser",
+   "label": "Teaser"
+  },
+  {
+   "id": "world",
+   "label": "The world"
+  },
+  {
+   "id": "directive_1",
+   "label": "Directive 1: Do not wear it"
+  },
+  {
+   "id": "directive_2",
+   "label": "Directive 2: Do not ask whose it is"
+  },
+  {
+   "id": "directive_3",
+   "label": "Directive 3: Do not throw it away"
+  },
+  {
+   "id": "directive_4",
+   "label": "Directive 4: Leave it on the machine"
+  },
+  {
+   "id": "directive_5",
+   "label": "Directive 5: Do not count the steps"
+  },
+  {
+   "id": "directive_6",
+   "label": "Directive 6: Do not blame the machine"
+  },
+  {
+   "id": "addendum",
+   "label": "Addendum"
+  },
+  {
+   "id": "callback",
+   "label": "Callback"
+  },
+  {
+   "id": "outro",
+   "label": "Outro"
+  }
+ ],
+ "lines": [
+  {
+   "id": "L001",
+   "beat": "cold_open",
+   "directive": null,
+   "voice": "If your washing machine ever gives back one extra sock...",
+   "caption": "If your washing machine ever gives back one extra sock...",
+   "shot": "S01",
+   "pauseAfter": 0.45,
+   "emphasis": [
+    "one extra sock"
+   ],
+   "sfx": null,
+   "transitionIn": "fade"
+  },
+  {
+   "id": "L002",
+   "beat": "cold_open",
+   "directive": null,
+   "voice": "and it is not yours...",
+   "caption": "and it is not yours...",
+   "shot": "S02",
+   "pauseAfter": 0.45,
+   "emphasis": [
+    "not yours"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L003",
+   "beat": "cold_open",
+   "directive": null,
+   "voice": "do not wear it.",
+   "caption": "do not wear it.",
+   "shot": "S03",
+   "pauseAfter": 0.5,
+   "emphasis": [
+    "do not wear it"
+   ],
+   "sfx": "static",
+   "transitionIn": "carbon"
+  },
+  {
+   "id": "L004",
+   "beat": "cold_open",
+   "directive": null,
+   "voice": "Do not ask whose it is.",
+   "caption": "Do not ask whose it is.",
+   "shot": "S04",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L005",
+   "beat": "cold_open",
+   "directive": null,
+   "voice": "And do not put it with the others.",
+   "caption": "And do not put it with the others.",
+   "shot": "S05",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "with the others"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L006",
+   "beat": "cold_open",
+   "directive": null,
+   "voice": "This is Advisory zero zero zero three.",
+   "caption": "This is Advisory 0003.",
+   "shot": "S06",
+   "pauseAfter": 0.5,
+   "emphasis": [],
+   "sfx": "page",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L007",
+   "beat": "teaser",
+   "directive": null,
+   "voice": "This advisory has six directives.",
+   "caption": "This advisory has 6 directives.",
+   "shot": "S06a",
+   "pauseAfter": 0.3,
+   "emphasis": [
+    "6 directives"
+   ],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L008",
+   "beat": "teaser",
+   "directive": null,
+   "voice": "Most households violate the third.",
+   "caption": "Most households violate the third.",
+   "shot": "S06b",
+   "pauseAfter": 0.35,
+   "emphasis": [
+    "the third"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L009",
+   "beat": "teaser",
+   "directive": null,
+   "voice": "The addendum is not about the machine.",
+   "caption": "The addendum is not about the machine.",
+   "shot": "S06c",
+   "pauseAfter": 0.9,
+   "emphasis": [
+    "addendum"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L010",
+   "beat": "world",
+   "directive": null,
+   "voice": "Your washing machine eats socks.",
+   "caption": "Your washing machine eats socks.",
+   "shot": "S07",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L011",
+   "beat": "world",
+   "directive": null,
+   "voice": "Everyone's does.",
+   "caption": "Everyone's does.",
+   "shot": "S08",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L012",
+   "beat": "world",
+   "directive": null,
+   "voice": "One at a time. Never a pair.",
+   "caption": "One at a time. Never a pair.",
+   "shot": "S09",
+   "pauseAfter": 0.45,
+   "emphasis": [
+    "Never a pair"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L013",
+   "beat": "world",
+   "directive": null,
+   "voice": "You keep a basket of odd socks to prove it.",
+   "caption": "You keep a basket of odd socks to prove it.",
+   "shot": "S10",
+   "pauseAfter": 0.45,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L014",
+   "beat": "world",
+   "directive": null,
+   "voice": "Tonight, you emptied the drum.",
+   "caption": "Tonight, you emptied the drum.",
+   "shot": "S11",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L015",
+   "beat": "world",
+   "directive": null,
+   "voice": "You matched every pair.",
+   "caption": "You matched every pair.",
+   "shot": "S12",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L016",
+   "beat": "world",
+   "directive": null,
+   "voice": "And one was left.",
+   "caption": "And one was left.",
+   "shot": "S12b",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "one was left"
+   ],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L017",
+   "beat": "world",
+   "directive": null,
+   "voice": "Grey. Wool. Slightly too long.",
+   "caption": "Grey. Wool. Slightly too long.",
+   "shot": "S13",
+   "pauseAfter": 0.45,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L018",
+   "beat": "world",
+   "directive": null,
+   "voice": "Nobody in your household owns a sock like this.",
+   "caption": "Nobody in your household owns a sock like this.",
+   "shot": "S14",
+   "pauseAfter": 0.8,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L019",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "Directive one. Do not wear it.",
+   "caption": "Directive 1. Do not wear it.",
+   "shot": "C1",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "Do not wear it"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L020",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "It will be warm.",
+   "caption": "It will be warm.",
+   "shot": "S16",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L021",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "It came out of a cold wash.",
+   "caption": "It came out of a cold wash.",
+   "shot": "S16b",
+   "pauseAfter": 0.45,
+   "emphasis": [
+    "cold wash"
+   ],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L022",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "It will be soft. It will look about your size.",
+   "caption": "It will be soft. It will look about your size.",
+   "shot": "S17",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L023",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "It is not your size.",
+   "caption": "It is not your size.",
+   "shot": "S17b",
+   "pauseAfter": 0.45,
+   "emphasis": [
+    "not your size"
+   ],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L024",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "A worn sock keeps the shape of the foot inside it.",
+   "caption": "A worn sock keeps the shape of the foot inside it.",
+   "shot": "S18",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L025",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "This one already has a shape.",
+   "caption": "This one already has a shape.",
+   "shot": "S18b",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "already has a shape"
+   ],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L026",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "Someone will come back for it.",
+   "caption": "Someone will come back for it.",
+   "shot": "S19",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L027",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "It should not be on your foot when they do.",
+   "caption": "It should not be on your foot when they do.",
+   "shot": "S20",
+   "pauseAfter": 0.8,
+   "emphasis": [
+    "on your foot"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L028",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "Directive two. Do not ask whose it is.",
+   "caption": "Directive 2. Do not ask whose it is.",
+   "shot": "C2",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "Do not ask whose it is"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L029",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "You will hold it up in the hallway.",
+   "caption": "You will hold it up in the hallway.",
+   "shot": "S22",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L030",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "You will ask your household whose it is.",
+   "caption": "You will ask your household whose it is.",
+   "shot": "S22b",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L031",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "Everyone will say: not mine.",
+   "caption": "Everyone will say: not mine.",
+   "shot": "S23",
+   "pauseAfter": 0.45,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L032",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "Count the answers.",
+   "caption": "Count the answers.",
+   "shot": "S23b",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "Count the answers"
+   ],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L033",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "In our files, four hundred and twelve households asked.",
+   "caption": "In our files, 412 households asked.",
+   "shot": "S24",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L034",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "Every one of them got one answer too many.",
+   "caption": "Every one of them got one answer too many.",
+   "shot": "S25",
+   "pauseAfter": 0.45,
+   "emphasis": [
+    "one answer too many"
+   ],
+   "sfx": "page",
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L035",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "Do not ask again.",
+   "caption": "Do not ask again.",
+   "shot": "S26",
+   "pauseAfter": 0.8,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L036",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "Directive three. Do not throw it away.",
+   "caption": "Directive 3. Do not throw it away.",
+   "shot": "C3",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "Do not throw it away"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L037",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "This is the directive most households violate.",
+   "caption": "This is the directive most households violate.",
+   "shot": "S28",
+   "pauseAfter": 0.4,
+   "emphasis": [
+    "violate"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L038",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "You will put it in the bin.",
+   "caption": "You will put it in the bin.",
+   "shot": "S29",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L039",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "You will take the bin out.",
+   "caption": "You will take the bin out.",
+   "shot": "S30",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L040",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "Case nine-two-seven.",
+   "caption": "Case 0927.",
+   "shot": "S31",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": "page",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L041",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "A woman in Cardiff threw the sock away on a Wednesday.",
+   "caption": "A woman in Cardiff threw the sock away on a Wednesday.",
+   "shot": "S32",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L042",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "The bin was collected on Thursday.",
+   "caption": "The bin was collected on Thursday.",
+   "shot": "S33",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L043",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "On Friday, the sock was back in her machine.",
+   "caption": "On Friday, the sock was back in her machine.",
+   "shot": "S34",
+   "pauseAfter": 0.5,
+   "emphasis": [
+    "back in her machine"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L044",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "Folded.",
+   "caption": "Folded.",
+   "shot": "S35",
+   "pauseAfter": 0.6,
+   "emphasis": [],
+   "sfx": "silence",
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L045",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "Nobody in her household folds socks.",
+   "caption": "Nobody in her household folds socks.",
+   "shot": "S35b",
+   "pauseAfter": 0.45,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L046",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "We know who folded it.",
+   "caption": "We know who folded it.",
+   "shot": "S36",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L047",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "We will not be putting that in writing.",
+   "caption": "We will not be putting that in writing.",
+   "shot": "S37",
+   "pauseAfter": 0.8,
+   "emphasis": [],
+   "sfx": "page",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L048",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "Directive four. Leave it on the machine.",
+   "caption": "Directive 4. Leave it on the machine.",
+   "shot": "C4",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "Leave it on the machine"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L049",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "Do not keep it in a drawer.",
+   "caption": "Do not keep it in a drawer.",
+   "shot": "S39",
+   "pauseAfter": 0.25,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L050",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "Do not keep it by your bed.",
+   "caption": "Do not keep it by your bed.",
+   "shot": "S40",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L051",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "If it is in a drawer, they will open every drawer.",
+   "caption": "If it is in a drawer, they will open every drawer.",
+   "shot": "S41",
+   "pauseAfter": 0.5,
+   "emphasis": [
+    "every drawer"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L052",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "Put it on top of the washing machine.",
+   "caption": "Put it on top of the washing machine.",
+   "shot": "S42",
+   "pauseAfter": 0.3,
+   "emphasis": [
+    "on top of the washing machine"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L053",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "Smooth it flat. Leave the laundry room door open.",
+   "caption": "Smooth it flat. Leave the laundry room door open.",
+   "shot": "S43",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L054",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "Then go to bed.",
+   "caption": "Then go to bed.",
+   "shot": "S44",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L055",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "It is easier for everyone if they do not have to look.",
+   "caption": "It is easier for everyone if they do not have to look.",
+   "shot": "S44b",
+   "pauseAfter": 0.8,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L056",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "Directive five. Do not count the steps.",
+   "caption": "Directive 5. Do not count the steps.",
+   "shot": "C5",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "Do not count the steps"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L057",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "Your home makes noises at night.",
+   "caption": "Your home makes noises at night.",
+   "shot": "S46",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L058",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "Tonight, it will be very quiet.",
+   "caption": "Tonight, it will be very quiet.",
+   "shot": "S47",
+   "pauseAfter": 0.6,
+   "emphasis": [],
+   "sfx": "silence",
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L059",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "Someone is walking through your home on one sock.",
+   "caption": "Someone is walking through your home on one sock.",
+   "shot": "S48",
+   "pauseAfter": 0.45,
+   "emphasis": [
+    "one sock"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L060",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "One foot makes no sound.",
+   "caption": "One foot makes no sound.",
+   "shot": "S49",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L061",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "The other one does.",
+   "caption": "The other one does.",
+   "shot": "S49b",
+   "pauseAfter": 0.45,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L062",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "You will hear every second step.",
+   "caption": "You will hear every second step.",
+   "shot": "S50",
+   "pauseAfter": 0.3,
+   "emphasis": [
+    "every second step"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L063",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "Past your door. To the laundry room.",
+   "caption": "Past your door. To the laundry room.",
+   "shot": "S50b",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L064",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "Do not get up. Do not count them.",
+   "caption": "Do not get up. Do not count them.",
+   "shot": "S51",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L065",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "They will stop at the machine.",
+   "caption": "They will stop at the machine.",
+   "shot": "S52",
+   "pauseAfter": 0.5,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L066",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "Our left foot gets cold.",
+   "caption": "Our left foot gets cold.",
+   "shot": "SLIP1",
+   "pauseAfter": 0.7,
+   "emphasis": [],
+   "sfx": "static",
+   "transitionIn": "slip"
+  },
+  {
+   "id": "L067",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "Apologies.",
+   "caption": "Apologies.",
+   "shot": "SLIP2",
+   "pauseAfter": 0.4,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L068",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "That remark has been redacted.",
+   "caption": "That remark has been redacted.",
+   "shot": "SLIP3",
+   "pauseAfter": 0.9,
+   "emphasis": [],
+   "sfx": "page",
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L069",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "Directive six. Do not blame the machine.",
+   "caption": "Directive 6. Do not blame the machine.",
+   "shot": "C6",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "Do not blame the machine"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L070",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "In the morning, the sock will be gone.",
+   "caption": "In the morning, the sock will be gone.",
+   "shot": "S55",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L071",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "You will feel relieved. You will run a wash.",
+   "caption": "You will feel relieved. You will run a wash.",
+   "shot": "S56",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L072",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "And one of your socks will go missing. Again.",
+   "caption": "And one of your socks will go missing. Again.",
+   "shot": "S57",
+   "pauseAfter": 0.45,
+   "emphasis": [
+    "Again"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L073",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "You have had this machine for nine years.",
+   "caption": "You have had this machine for 9 years.",
+   "shot": "S58",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L074",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "It has lost two hundred and six of your socks.",
+   "caption": "It has lost 206 of your socks.",
+   "shot": "S59",
+   "pauseAfter": 0.45,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L075",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "You called it the machine that eats socks.",
+   "caption": "You called it the machine that eats socks.",
+   "shot": "S60",
+   "pauseAfter": 0.4,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L076",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "It was not eating them. It was sorting.",
+   "caption": "It was not eating them. It was sorting.",
+   "shot": "S61",
+   "pauseAfter": 0.4,
+   "emphasis": [
+    "sorting"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L077",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "In the dark, in the drum. Yours from theirs.",
+   "caption": "In the dark, in the drum. Yours from theirs.",
+   "shot": "S61b",
+   "pauseAfter": 0.4,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L078",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "When it was not sure, it sent yours away.",
+   "caption": "When it was not sure, it sent yours away.",
+   "shot": "S62",
+   "pauseAfter": 0.4,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L079",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "It would rather lose your sock than leave you one of theirs.",
+   "caption": "It would rather lose your sock than leave you one of theirs.",
+   "shot": "S63",
+   "pauseAfter": 0.5,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L080",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "Tonight, it got one wrong. It is old now.",
+   "caption": "Tonight, it got one wrong. It is old now.",
+   "shot": "S64",
+   "pauseAfter": 0.4,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L081",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "Let it keep the next one.",
+   "caption": "Let it keep the next one.",
+   "shot": "S65",
+   "pauseAfter": 0.9,
+   "emphasis": [
+    "keep the next one"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L082",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "Addendum.",
+   "caption": "Addendum.",
+   "shot": "AD",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "Addendum"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L083",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "By now, you are wondering how a government department knows what is in your laundry.",
+   "caption": "By now, you are wondering how a government department knows what is in your laundry.",
+   "shot": "S67",
+   "pauseAfter": 0.4,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L084",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "Our inspectors do not wear shoes indoors.",
+   "caption": "Our inspectors do not wear shoes indoors.",
+   "shot": "S68",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": "page",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L085",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "You would hear them.",
+   "caption": "You would hear them.",
+   "shot": "S68b",
+   "pauseAfter": 0.4,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L086",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "They walk in grey wool socks. Slightly too long.",
+   "caption": "They walk in grey wool socks. Slightly too long.",
+   "shot": "S69",
+   "pauseAfter": 0.4,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L087",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "Inspections are long. Sometimes a sock comes off.",
+   "caption": "Inspections are long. Sometimes a sock comes off.",
+   "shot": "S70",
+   "pauseAfter": 0.4,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L088",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "A sock left behind means the inspection is not finished.",
+   "caption": "A sock left behind means the inspection is not finished.",
+   "shot": "S71",
+   "pauseAfter": 0.3,
+   "emphasis": [
+    "not finished"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L089",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "The inspector has to come back for it.",
+   "caption": "The inspector has to come back for it.",
+   "shot": "S72",
+   "pauseAfter": 0.45,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L090",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "The Department of Unlisted Risks has issued wool socks for ninety-one years.",
+   "caption": "The Department of Unlisted Risks has issued wool socks for 91 years.",
+   "shot": "S73",
+   "pauseAfter": 0.4,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L091",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "Your machine has sent back every one we left in your home. Until tonight.",
+   "caption": "Your machine has sent back every one we left in your home. Until tonight.",
+   "shot": "S74",
+   "pauseAfter": 0.4,
+   "emphasis": [
+    "Until tonight"
+   ],
+   "sfx": "static",
+   "transitionIn": "carbon"
+  },
+  {
+   "id": "L092",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "Through the gap behind the drum.",
+   "caption": "Through the gap behind the drum.",
+   "shot": "S75",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L093",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "In nine years, we never had a reason to come back.",
+   "caption": "In 9 years, we never had a reason to come back.",
+   "shot": "S76",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": "page",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L094",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "That is why it is listed as a risk.",
+   "caption": "That is why it is listed as a risk.",
+   "shot": "S77",
+   "pauseAfter": 0.8,
+   "emphasis": [
+    "listed as a risk"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L095",
+   "beat": "callback",
+   "directive": 7,
+   "voice": "If your machine gives back a sock tonight that is not yours...",
+   "caption": "If your machine gives back a sock tonight that is not yours...",
+   "shot": "S78",
+   "pauseAfter": 0.45,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L096",
+   "beat": "callback",
+   "directive": 7,
+   "voice": "it is not a mistake.",
+   "caption": "it is not a mistake.",
+   "shot": "S79",
+   "pauseAfter": 0.5,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L097",
+   "beat": "callback",
+   "directive": 7,
+   "voice": "Leave it on the machine. Stay in bed.",
+   "caption": "Leave it on the machine. Stay in bed.",
+   "shot": "S80",
+   "pauseAfter": 0.4,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L098",
+   "beat": "callback",
+   "directive": 7,
+   "voice": "And do not wear it.",
+   "caption": "And do not wear it.",
+   "shot": "S81",
+   "pauseAfter": 0.8,
+   "emphasis": [
+    "do not wear it"
+   ],
+   "sfx": "static",
+   "transitionIn": "carbon"
+  },
+  {
+   "id": "L099",
+   "beat": "outro",
+   "directive": null,
+   "voice": "This advisory has ended.",
+   "caption": "This advisory has ended.",
+   "shot": "S82",
+   "pauseAfter": 0.6,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  }
+ ],
+ "shots": {
+  "S01": {
+   "type": "tableau",
+   "desc": "Laundry corner at night. The washing machine (left of centre) stands with its door open; a small pile of washing spills out onto the floor in front of it. A little apart, to the right, one grey wool sock lies on its own on the floor. Window with moon top right. Slow push.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 1460,
+     "y": 330,
+     "sky": "moon"
+    },
+    {
+     "el": "washing-machine",
+     "x": 820,
+     "y": 780,
+     "h": 400,
+     "door": "open",
+     "drum": "still",
+     "contents": "none",
+     "light": "off"
+    },
+    {
+     "el": "sock-pile",
+     "x": 760,
+     "y": 780,
+     "w": 380,
+     "socks": 3
+    },
+    {
+     "el": "sock",
+     "x": 1200,
+     "y": 780,
+     "size": 210,
+     "kind": "theirs",
+     "state": "flat"
+    }
+   ],
+   "camera": {
+    "move": "push",
+    "from": 1.0,
+    "to": 1.05
+   }
+  },
+  "S02": {
+   "type": "tableau",
+   "desc": "Close-up of the grey sock on the floor, large. Ribbed cuff, flat, completely still. Slightly too long. Very slow push.",
+   "elements": [
+    {
+     "el": "sock",
+     "x": 960,
+     "y": 700,
+     "size": 760,
+     "kind": "theirs",
+     "state": "flat"
+    }
+   ],
+   "camera": {
+    "move": "push",
+    "from": 1.0,
+    "to": 1.06
+   }
+  },
+  "S03": {
+   "type": "tableau",
+   "desc": "The grey sock standing upright on its own, holding the shape of a foot that isn't there (worn shape). A red cross draws over it.",
+   "elements": [
+    {
+     "el": "sock",
+     "x": 960,
+     "y": 760,
+     "size": 460,
+     "kind": "theirs",
+     "state": "worn"
+    },
+    {
+     "el": "mark",
+     "type": "cross",
+     "x": 960,
+     "y": 500,
+     "size": 380,
+     "color": "red",
+     "anim": [
+      "draw-on"
+     ]
+    }
+   ],
+   "accent": "red"
+  },
+  "S04": {
+   "type": "tableau",
+   "desc": "Person standing on the left, holding the grey sock up by its cuff. A speech bubble with '?' from the person's head; a red cross draws over the bubble.",
+   "elements": [
+    {
+     "el": "person",
+     "pose": "stand",
+     "x": 600,
+     "y": 780,
+     "h": 360,
+     "facing": "right"
+    },
+    {
+     "el": "sock",
+     "x": 720,
+     "y": 470,
+     "size": 170,
+     "kind": "theirs",
+     "state": "hang"
+    },
+    {
+     "el": "speech",
+     "from": "person.head",
+     "text": "?",
+     "x": 820,
+     "y": 300
+    },
+    {
+     "el": "mark",
+     "type": "cross",
+     "x": 820,
+     "y": 300,
+     "size": 120,
+     "color": "red",
+     "anim": [
+      "draw-on"
+     ],
+     "delay": 0.5
+    }
+   ],
+   "accent": "red"
+  },
+  "S05": {
+   "type": "tableau",
+   "desc": "A basket full of odd socks (all different patterns). The grey sock hovers above it, about to be put in; a red cross draws over the grey sock.",
+   "elements": [
+    {
+     "el": "sock-basket",
+     "x": 960,
+     "y": 780,
+     "w": 460,
+     "count": 12
+    },
+    {
+     "el": "sock",
+     "x": 960,
+     "y": 400,
+     "size": 200,
+     "kind": "theirs",
+     "state": "flat"
+    },
+    {
+     "el": "mark",
+     "type": "cross",
+     "x": 960,
+     "y": 380,
+     "size": 220,
+     "color": "red",
+     "anim": [
+      "draw-on"
+     ],
+     "delay": 0.4
+    }
+   ],
+   "accent": "red"
+  },
+  "S06": {
+   "type": "doc",
+   "desc": "Official advisory memo on off-white paper slides up into frame. Header: DEPARTMENT OF UNLISTED RISKS / ADVISORY 0003 / SUBJECT: DOMESTIC WASHING MACHINE, SURPLUS ITEM. Six redacted directive lines and an ADDENDUM line.",
+   "doc": {
+    "header": [
+     "DEPARTMENT OF UNLISTED RISKS",
+     "ADVISORY 0003",
+     "SUBJECT: DOMESTIC WASHING MACHINE — SURPLUS ITEM"
+    ],
+    "lines": [
+     "DIRECTIVE 1 ███████",
+     "DIRECTIVE 2 ████████████",
+     "DIRECTIVE 3 ██████████",
+     "DIRECTIVE 4 █████████████",
+     "DIRECTIVE 5 ███████████",
+     "DIRECTIVE 6 ██████████████",
+     "ADDENDUM ██████ ████ ███"
+    ],
+    "highlight": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "anim": "slide-up"
+   }
+  },
+  "S06a": {
+   "type": "doc",
+   "same_as": "S06",
+   "desc": "Hold on the memo; the six directive lines pulse once, top to bottom."
+  },
+  "S06b": {
+   "type": "doc",
+   "same_as": "S06",
+   "desc": "Same memo. A red stamp VIOLATED slams onto DIRECTIVE 3 with a small screen shake.",
+   "doc": {
+    "stamp": {
+     "text": "VIOLATED",
+     "line": 2,
+     "color": "red",
+     "anim": "stamp"
+    }
+   }
+  },
+  "S06c": {
+   "type": "doc",
+   "same_as": "S06",
+   "desc": "Camera pushes down to the ADDENDUM line; it is highlighted in blue, text stays redacted.",
+   "doc": {
+    "focus_line": 6,
+    "highlight": [
+     6
+    ],
+    "highlight_color": "blue"
+   },
+   "camera": {
+    "move": "pan-to",
+    "target": "line-6",
+    "zoom": 1.6
+   }
+  },
+  "S07": {
+   "type": "tableau",
+   "desc": "The washing machine front-on, large and centred. The drum turns; socks tumble past the door glass.",
+   "elements": [
+    {
+     "el": "washing-machine",
+     "x": 960,
+     "y": 780,
+     "h": 470,
+     "drum": "spin",
+     "contents": "socks",
+     "light": "blue"
+    }
+   ]
+  },
+  "S08": {
+   "type": "tableau",
+   "desc": "A row of five identical washing machines, dim, all spinning. Everyone's machine.",
+   "elements": [
+    {
+     "el": "washing-machine",
+     "x": 360,
+     "y": 780,
+     "h": 260,
+     "drum": "spin",
+     "contents": "socks",
+     "color": "dim"
+    },
+    {
+     "el": "washing-machine",
+     "x": 660,
+     "y": 780,
+     "h": 260,
+     "drum": "spin",
+     "contents": "socks",
+     "color": "dim"
+    },
+    {
+     "el": "washing-machine",
+     "x": 960,
+     "y": 780,
+     "h": 260,
+     "drum": "spin",
+     "contents": "socks",
+     "color": "dim"
+    },
+    {
+     "el": "washing-machine",
+     "x": 1260,
+     "y": 780,
+     "h": 260,
+     "drum": "spin",
+     "contents": "socks",
+     "color": "dim"
+    },
+    {
+     "el": "washing-machine",
+     "x": 1560,
+     "y": 780,
+     "h": 260,
+     "drum": "spin",
+     "contents": "socks",
+     "color": "dim"
+    }
+   ]
+  },
+  "S09": {
+   "type": "tableau",
+   "desc": "A matching pair of striped socks side by side, centred. Halfway through the line the right one fades away, leaving one.",
+   "elements": [
+    {
+     "el": "sock",
+     "x": 820,
+     "y": 620,
+     "size": 330,
+     "kind": "yours",
+     "pattern": "stripe",
+     "state": "flat",
+     "rot": -90
+    },
+    {
+     "el": "sock",
+     "x": 1100,
+     "y": 620,
+     "size": 330,
+     "kind": "yours",
+     "pattern": "stripe",
+     "state": "flat",
+     "rot": -90,
+     "anim": [
+      "fade-out"
+     ],
+     "delay": 0.8
+    }
+   ]
+  },
+  "S10": {
+   "type": "tableau",
+   "desc": "The basket of odd socks, large. Blue label: ODD SOCKS: 14.",
+   "elements": [
+    {
+     "el": "sock-basket",
+     "x": 900,
+     "y": 780,
+     "w": 560,
+     "count": 14
+    },
+    {
+     "el": "label",
+     "text": "ODD SOCKS: 14",
+     "target": {
+      "x": 1060,
+      "y": 470
+     },
+     "color": "blue",
+     "anim": [
+      "draw-on"
+     ]
+    }
+   ],
+   "accent": "blue"
+  },
+  "S11": {
+   "type": "tableau",
+   "desc": "Late evening. Person kneeling on the left, facing the open washing machine on the right; a pile of washing between them. Small clock top left reads 23:12. Window with moon.",
+   "elements": [
+    {
+     "el": "clock",
+     "x": 360,
+     "y": 260,
+     "r": 70,
+     "time": "23:12"
+    },
+    {
+     "el": "window",
+     "x": 1560,
+     "y": 300,
+     "sky": "moon"
+    },
+    {
+     "el": "person",
+     "pose": "kneel",
+     "x": 760,
+     "y": 780,
+     "h": 340,
+     "facing": "right"
+    },
+    {
+     "el": "washing-machine",
+     "x": 1180,
+     "y": 780,
+     "h": 250,
+     "door": "open",
+     "drum": "still",
+     "contents": "none",
+     "light": "off"
+    },
+    {
+     "el": "sock-pile",
+     "x": 960,
+     "y": 780,
+     "w": 260,
+     "socks": 4
+    }
+   ]
+  },
+  "S12": {
+   "type": "tableau",
+   "desc": "Diagram view: socks laid out in matched pairs, three rows of three pairs, each pair a different pattern. Pairs pop in one by one, left to right, top to bottom. The fourth column is empty.",
+   "elements": [
+    {
+     "el": "sock",
+     "x": 526,
+     "y": 330,
+     "size": 128,
+     "kind": "yours",
+     "pattern": "stripe",
+     "state": "flat",
+     "rot": -90,
+     "anim": [
+      "pop-in"
+     ],
+     "delay": 0.0
+    },
+    {
+     "el": "sock",
+     "x": 594,
+     "y": 330,
+     "size": 128,
+     "kind": "yours",
+     "pattern": "stripe",
+     "state": "flat",
+     "rot": -90,
+     "anim": [
+      "pop-in"
+     ],
+     "delay": 0.0
+    },
+    {
+     "el": "sock",
+     "x": 826,
+     "y": 330,
+     "size": 128,
+     "kind": "yours",
+     "pattern": "dots",
+     "state": "flat",
+     "rot": -90,
+     "anim": [
+      "pop-in"
+     ],
+     "delay": 0.12
+    },
+    {
+     "el": "sock",
+     "x": 894,
+     "y": 330,
+     "size": 128,
+     "kind": "yours",
+     "pattern": "dots",
+     "state": "flat",
+     "rot": -90,
+     "anim": [
+      "pop-in"
+     ],
+     "delay": 0.12
+    },
+    {
+     "el": "sock",
+     "x": 1126,
+     "y": 330,
+     "size": 128,
+     "kind": "yours",
+     "pattern": "plain",
+     "state": "flat",
+     "rot": -90,
+     "anim": [
+      "pop-in"
+     ],
+     "delay": 0.24
+    },
+    {
+     "el": "sock",
+     "x": 1194,
+     "y": 330,
+     "size": 128,
+     "kind": "yours",
+     "pattern": "plain",
+     "state": "flat",
+     "rot": -90,
+     "anim": [
+      "pop-in"
+     ],
+     "delay": 0.24
+    },
+    {
+     "el": "sock",
+     "x": 526,
+     "y": 500,
+     "size": 128,
+     "kind": "yours",
+     "pattern": "heel",
+     "state": "flat",
+     "rot": -90,
+     "anim": [
+      "pop-in"
+     ],
+     "delay": 0.36
+    },
+    {
+     "el": "sock",
+     "x": 594,
+     "y": 500,
+     "size": 128,
+     "kind": "yours",
+     "pattern": "heel",
+     "state": "flat",
+     "rot": -90,
+     "anim": [
+      "pop-in"
+     ],
+     "delay": 0.36
+    },
+    {
+     "el": "sock",
+     "x": 826,
+     "y": 500,
+     "size": 128,
+     "kind": "yours",
+     "pattern": "stripe",
+     "state": "flat",
+     "rot": -90,
+     "anim": [
+      "pop-in"
+     ],
+     "delay": 0.48
+    },
+    {
+     "el": "sock",
+     "x": 894,
+     "y": 500,
+     "size": 128,
+     "kind": "yours",
+     "pattern": "stripe",
+     "state": "flat",
+     "rot": -90,
+     "anim": [
+      "pop-in"
+     ],
+     "delay": 0.48
+    },
+    {
+     "el": "sock",
+     "x": 1126,
+     "y": 500,
+     "size": 128,
+     "kind": "yours",
+     "pattern": "plain",
+     "state": "flat",
+     "rot": -90,
+     "anim": [
+      "pop-in"
+     ],
+     "delay": 0.6
+    },
+    {
+     "el": "sock",
+     "x": 1194,
+     "y": 500,
+     "size": 128,
+     "kind": "yours",
+     "pattern": "plain",
+     "state": "flat",
+     "rot": -90,
+     "anim": [
+      "pop-in"
+     ],
+     "delay": 0.6
+    },
+    {
+     "el": "sock",
+     "x": 526,
+     "y": 670,
+     "size": 128,
+     "kind": "yours",
+     "pattern": "dots",
+     "state": "flat",
+     "rot": -90,
+     "anim": [
+      "pop-in"
+     ],
+     "delay": 0.72
+    },
+    {
+     "el": "sock",
+     "x": 594,
+     "y": 670,
+     "size": 128,
+     "kind": "yours",
+     "pattern": "dots",
+     "state": "flat",
+     "rot": -90,
+     "anim": [
+      "pop-in"
+     ],
+     "delay": 0.72
+    },
+    {
+     "el": "sock",
+     "x": 826,
+     "y": 670,
+     "size": 128,
+     "kind": "yours",
+     "pattern": "heel",
+     "state": "flat",
+     "rot": -90,
+     "anim": [
+      "pop-in"
+     ],
+     "delay": 0.84
+    },
+    {
+     "el": "sock",
+     "x": 894,
+     "y": 670,
+     "size": 128,
+     "kind": "yours",
+     "pattern": "heel",
+     "state": "flat",
+     "rot": -90,
+     "anim": [
+      "pop-in"
+     ],
+     "delay": 0.84
+    },
+    {
+     "el": "sock",
+     "x": 1126,
+     "y": 670,
+     "size": 128,
+     "kind": "yours",
+     "pattern": "plain",
+     "state": "flat",
+     "rot": -90,
+     "anim": [
+      "pop-in"
+     ],
+     "delay": 0.96
+    },
+    {
+     "el": "sock",
+     "x": 1194,
+     "y": 670,
+     "size": 128,
+     "kind": "yours",
+     "pattern": "plain",
+     "state": "flat",
+     "rot": -90,
+     "anim": [
+      "pop-in"
+     ],
+     "delay": 0.96
+    }
+   ],
+   "accent": "blue"
+  },
+  "S12b": {
+   "type": "tableau",
+   "desc": "Same layout, all pairs in place. At the end of the bottom row, in the fourth column, one grey sock on its own. A red circle draws around it.",
+   "elements": [
+    {
+     "el": "sock",
+     "x": 526,
+     "y": 330,
+     "size": 128,
+     "kind": "yours",
+     "pattern": "stripe",
+     "state": "flat",
+     "rot": -90
+    },
+    {
+     "el": "sock",
+     "x": 594,
+     "y": 330,
+     "size": 128,
+     "kind": "yours",
+     "pattern": "stripe",
+     "state": "flat",
+     "rot": -90
+    },
+    {
+     "el": "sock",
+     "x": 826,
+     "y": 330,
+     "size": 128,
+     "kind": "yours",
+     "pattern": "dots",
+     "state": "flat",
+     "rot": -90
+    },
+    {
+     "el": "sock",
+     "x": 894,
+     "y": 330,
+     "size": 128,
+     "kind": "yours",
+     "pattern": "dots",
+     "state": "flat",
+     "rot": -90
+    },
+    {
+     "el": "sock",
+     "x": 1126,
+     "y": 330,
+     "size": 128,
+     "kind": "yours",
+     "pattern": "plain",
+     "state": "flat",
+     "rot": -90
+    },
+    {
+     "el": "sock",
+     "x": 1194,
+     "y": 330,
+     "size": 128,
+     "kind": "yours",
+     "pattern": "plain",
+     "state": "flat",
+     "rot": -90
+    },
+    {
+     "el": "sock",
+     "x": 526,
+     "y": 500,
+     "size": 128,
+     "kind": "yours",
+     "pattern": "heel",
+     "state": "flat",
+     "rot": -90
+    },
+    {
+     "el": "sock",
+     "x": 594,
+     "y": 500,
+     "size": 128,
+     "kind": "yours",
+     "pattern": "heel",
+     "state": "flat",
+     "rot": -90
+    },
+    {
+     "el": "sock",
+     "x": 826,
+     "y": 500,
+     "size": 128,
+     "kind": "yours",
+     "pattern": "stripe",
+     "state": "flat",
+     "rot": -90
+    },
+    {
+     "el": "sock",
+     "x": 894,
+     "y": 500,
+     "size": 128,
+     "kind": "yours",
+     "pattern": "stripe",
+     "state": "flat",
+     "rot": -90
+    },
+    {
+     "el": "sock",
+     "x": 1126,
+     "y": 500,
+     "size": 128,
+     "kind": "yours",
+     "pattern": "plain",
+     "state": "flat",
+     "rot": -90
+    },
+    {
+     "el": "sock",
+     "x": 1194,
+     "y": 500,
+     "size": 128,
+     "kind": "yours",
+     "pattern": "plain",
+     "state": "flat",
+     "rot": -90
+    },
+    {
+     "el": "sock",
+     "x": 526,
+     "y": 670,
+     "size": 128,
+     "kind": "yours",
+     "pattern": "dots",
+     "state": "flat",
+     "rot": -90
+    },
+    {
+     "el": "sock",
+     "x": 594,
+     "y": 670,
+     "size": 128,
+     "kind": "yours",
+     "pattern": "dots",
+     "state": "flat",
+     "rot": -90
+    },
+    {
+     "el": "sock",
+     "x": 826,
+     "y": 670,
+     "size": 128,
+     "kind": "yours",
+     "pattern": "heel",
+     "state": "flat",
+     "rot": -90
+    },
+    {
+     "el": "sock",
+     "x": 894,
+     "y": 670,
+     "size": 128,
+     "kind": "yours",
+     "pattern": "heel",
+     "state": "flat",
+     "rot": -90
+    },
+    {
+     "el": "sock",
+     "x": 1126,
+     "y": 670,
+     "size": 128,
+     "kind": "yours",
+     "pattern": "plain",
+     "state": "flat",
+     "rot": -90
+    },
+    {
+     "el": "sock",
+     "x": 1194,
+     "y": 670,
+     "size": 128,
+     "kind": "yours",
+     "pattern": "plain",
+     "state": "flat",
+     "rot": -90
+    },
+    {
+     "el": "sock",
+     "x": 1460,
+     "y": 670,
+     "size": 140,
+     "kind": "theirs",
+     "state": "flat",
+     "rot": -90
+    },
+    {
+     "el": "mark",
+     "type": "circle",
+     "x": 1460,
+     "y": 600,
+     "size": 190,
+     "color": "red",
+     "anim": [
+      "draw-on"
+     ]
+    }
+   ],
+   "accent": "red",
+   "same_as": "S12"
+  },
+  "S13": {
+   "type": "tableau",
+   "desc": "Close-up of the grey sock lying flat, large, next to a dashed outline of an ordinary sock of yours for scale; the grey one is visibly longer. Blue labels draw on one after another: GREY, WOOL, LENGTH: +4 CM.",
+   "elements": [
+    {
+     "el": "sock",
+     "x": 900,
+     "y": 700,
+     "size": 700,
+     "kind": "theirs",
+     "state": "flat",
+     "ghost_of": "yours"
+    },
+    {
+     "el": "label",
+     "text": "GREY",
+     "target": {
+      "x": 760,
+      "y": 560
+     },
+     "color": "blue",
+     "anim": [
+      "draw-on"
+     ]
+    },
+    {
+     "el": "label",
+     "text": "WOOL",
+     "target": {
+      "x": 1040,
+      "y": 600
+     },
+     "color": "blue",
+     "anim": [
+      "draw-on"
+     ],
+     "delay": 0.4
+    },
+    {
+     "el": "label",
+     "text": "LENGTH: +4 CM",
+     "target": {
+      "x": 1250,
+      "y": 660
+     },
+     "color": "blue",
+     "anim": [
+      "draw-on"
+     ],
+     "delay": 0.8
+    }
+   ],
+   "accent": "blue"
+  },
+  "S14": {
+   "type": "tableau",
+   "desc": "Three dim household members standing in a row on the left, facing front. On the right the grey sock, with a red label OWNER: NONE.",
+   "elements": [
+    {
+     "el": "crowd",
+     "n": 3,
+     "x": 640,
+     "y": 780,
+     "h": 320,
+     "spacing": 220,
+     "facing": "front",
+     "color": "dim"
+    },
+    {
+     "el": "sock",
+     "x": 1400,
+     "y": 560,
+     "size": 240,
+     "kind": "theirs",
+     "state": "hang"
+    },
+    {
+     "el": "label",
+     "text": "OWNER: NONE",
+     "target": {
+      "x": 1420,
+      "y": 520
+     },
+     "color": "red",
+     "anim": [
+      "draw-on"
+     ],
+     "delay": 0.3
+    }
+   ],
+   "accent": "red"
+  },
+  "C1": {
+   "type": "directive-card",
+   "n": 1,
+   "title": "DO NOT WEAR IT"
+  },
+  "S16": {
+   "type": "tableau",
+   "desc": "The grey sock lying flat on top of the washing machine. Faint warm wisps rise from it, as if it has just come off a radiator.",
+   "elements": [
+    {
+     "el": "washing-machine",
+     "x": 960,
+     "y": 780,
+     "h": 420,
+     "drum": "still",
+     "light": "off"
+    },
+    {
+     "el": "sock",
+     "x": 960,
+     "y": 360,
+     "size": 210,
+     "kind": "theirs",
+     "state": "flat",
+     "steam": true
+    }
+   ]
+  },
+  "S16b": {
+   "type": "tableau",
+   "desc": "Same. The machine's display reads COLD 20° in blue; a blue label points at it: WASH: COLD.",
+   "elements": [
+    {
+     "el": "washing-machine",
+     "x": 960,
+     "y": 780,
+     "h": 420,
+     "drum": "still",
+     "light": "off",
+     "display": "20°"
+    },
+    {
+     "el": "sock",
+     "x": 960,
+     "y": 360,
+     "size": 210,
+     "kind": "theirs",
+     "state": "flat",
+     "steam": true
+    },
+    {
+     "el": "label",
+     "text": "WASH: COLD",
+     "target": {
+      "x": 1060,
+      "y": 470
+     },
+     "color": "blue",
+     "anim": [
+      "draw-on"
+     ]
+    }
+   ],
+   "accent": "blue",
+   "same_as": "S16"
+  },
+  "S17": {
+   "type": "tableau",
+   "desc": "Comparison: one of your own striped socks (top) and the grey sock (bottom), laid flat, cuffs aligned on the left. They look almost the same length.",
+   "elements": [
+    {
+     "el": "sock",
+     "x": 900,
+     "y": 470,
+     "size": 560,
+     "kind": "yours",
+     "pattern": "stripe",
+     "state": "flat"
+    },
+    {
+     "el": "sock",
+     "x": 924,
+     "y": 690,
+     "size": 610,
+     "kind": "theirs",
+     "state": "flat"
+    }
+   ]
+  },
+  "S17b": {
+   "type": "tableau",
+   "desc": "Same comparison; a red circle draws at the toe of the grey sock where it sticks out past yours.",
+   "elements": [
+    {
+     "el": "sock",
+     "x": 900,
+     "y": 470,
+     "size": 560,
+     "kind": "yours",
+     "pattern": "stripe",
+     "state": "flat"
+    },
+    {
+     "el": "sock",
+     "x": 924,
+     "y": 690,
+     "size": 610,
+     "kind": "theirs",
+     "state": "flat"
+    },
+    {
+     "el": "mark",
+     "type": "circle",
+     "x": 1210,
+     "y": 650,
+     "size": 140,
+     "color": "red",
+     "anim": [
+      "draw-on"
+     ]
+    }
+   ],
+   "accent": "red",
+   "same_as": "S17"
+  },
+  "S18": {
+   "type": "tableau",
+   "desc": "The grey sock standing upright in a worn shape. A dashed blue outline of a foot sits inside it, fitting it exactly. Blue label: SHAPE: RETAINED.",
+   "elements": [
+    {
+     "el": "sock",
+     "x": 900,
+     "y": 760,
+     "size": 460,
+     "kind": "theirs",
+     "state": "worn",
+     "foot_ghost": true
+    },
+    {
+     "el": "label",
+     "text": "SHAPE: RETAINED",
+     "target": {
+      "x": 1040,
+      "y": 470
+     },
+     "color": "blue",
+     "anim": [
+      "draw-on"
+     ]
+    }
+   ],
+   "accent": "blue"
+  },
+  "S18b": {
+   "type": "tableau",
+   "desc": "Same worn sock, but the dashed foot outline fades away. The sock keeps its shape anyway, standing by itself.",
+   "elements": [
+    {
+     "el": "sock",
+     "x": 900,
+     "y": 760,
+     "size": 460,
+     "kind": "theirs",
+     "state": "worn",
+     "foot_ghost": "fade"
+    }
+   ],
+   "same_as": "S18"
+  },
+  "S19": {
+   "type": "tableau",
+   "desc": "Front door at night, closed, with a doormat. Window with moon beside it. Nobody there. Slow push.",
+   "elements": [
+    {
+     "el": "door",
+     "x": 900,
+     "y": 780,
+     "h": 540,
+     "state": "closed"
+    },
+    {
+     "el": "mat",
+     "x": 900,
+     "y": 790,
+     "w": 260
+    },
+    {
+     "el": "window",
+     "x": 1420,
+     "y": 330,
+     "sky": "moon"
+    }
+   ],
+   "camera": {
+    "move": "push",
+    "from": 1.0,
+    "to": 1.05
+   }
+  },
+  "S20": {
+   "type": "tableau",
+   "desc": "The grey sock in its worn shape, close; a red outline pulses around it. Red label: WEARER: YOU.",
+   "elements": [
+    {
+     "el": "sock",
+     "x": 900,
+     "y": 760,
+     "size": 460,
+     "kind": "theirs",
+     "state": "worn",
+     "outline": "red",
+     "anim": [
+      "pulse-outline"
+     ]
+    },
+    {
+     "el": "label",
+     "text": "WEARER: YOU",
+     "target": {
+      "x": 1040,
+      "y": 470
+     },
+     "color": "red",
+     "anim": [
+      "draw-on"
+     ]
+    }
+   ],
+   "accent": "red"
+  },
+  "C2": {
+   "type": "directive-card",
+   "n": 2,
+   "title": "DO NOT ASK WHOSE IT IS"
+  },
+  "S22": {
+   "type": "tableau",
+   "desc": "Hallway with three closed doors (dim). Person on the left holding up the grey sock by its cuff.",
+   "elements": [
+    {
+     "el": "door",
+     "x": 820,
+     "y": 780,
+     "h": 460,
+     "state": "closed",
+     "opacity": 0.8
+    },
+    {
+     "el": "door",
+     "x": 1180,
+     "y": 780,
+     "h": 460,
+     "state": "closed",
+     "opacity": 0.8
+    },
+    {
+     "el": "door",
+     "x": 1540,
+     "y": 780,
+     "h": 460,
+     "state": "closed",
+     "opacity": 0.8
+    },
+    {
+     "el": "person",
+     "pose": "stand",
+     "x": 380,
+     "y": 780,
+     "h": 360,
+     "facing": "right"
+    },
+    {
+     "el": "sock",
+     "x": 500,
+     "y": 470,
+     "size": 150,
+     "kind": "theirs",
+     "state": "hang"
+    }
+   ]
+  },
+  "S22b": {
+   "type": "tableau",
+   "desc": "Same; a small speech bubble from the person: WHOSE IS THIS?",
+   "elements": [
+    {
+     "el": "door",
+     "x": 820,
+     "y": 780,
+     "h": 460,
+     "state": "closed",
+     "opacity": 0.8
+    },
+    {
+     "el": "door",
+     "x": 1180,
+     "y": 780,
+     "h": 460,
+     "state": "closed",
+     "opacity": 0.8
+    },
+    {
+     "el": "door",
+     "x": 1540,
+     "y": 780,
+     "h": 460,
+     "state": "closed",
+     "opacity": 0.8
+    },
+    {
+     "el": "person",
+     "pose": "stand",
+     "x": 380,
+     "y": 780,
+     "h": 360,
+     "facing": "right"
+    },
+    {
+     "el": "sock",
+     "x": 500,
+     "y": 470,
+     "size": 150,
+     "kind": "theirs",
+     "state": "hang"
+    },
+    {
+     "el": "speech",
+     "from": "person.head",
+     "text": "whose is this?",
+     "size": "small",
+     "x": 560,
+     "y": 250
+    }
+   ],
+   "same_as": "S22"
+  },
+  "S23": {
+   "type": "tableau",
+   "desc": "Same hallway. A small speech bubble 'not mine' pops up above each of the three doors, one after another.",
+   "elements": [
+    {
+     "el": "door",
+     "x": 820,
+     "y": 780,
+     "h": 460,
+     "state": "closed",
+     "opacity": 0.8
+    },
+    {
+     "el": "door",
+     "x": 1180,
+     "y": 780,
+     "h": 460,
+     "state": "closed",
+     "opacity": 0.8
+    },
+    {
+     "el": "door",
+     "x": 1540,
+     "y": 780,
+     "h": 460,
+     "state": "closed",
+     "opacity": 0.8
+    },
+    {
+     "el": "person",
+     "pose": "stand",
+     "x": 380,
+     "y": 780,
+     "h": 360,
+     "facing": "right"
+    },
+    {
+     "el": "sock",
+     "x": 500,
+     "y": 470,
+     "size": 150,
+     "kind": "theirs",
+     "state": "hang"
+    },
+    {
+     "el": "speech",
+     "text": "not mine",
+     "size": "small",
+     "x": 820,
+     "y": 230,
+     "delay": 0.0
+    },
+    {
+     "el": "speech",
+     "text": "not mine",
+     "size": "small",
+     "x": 1180,
+     "y": 230,
+     "delay": 0.5
+    },
+    {
+     "el": "speech",
+     "text": "not mine",
+     "size": "small",
+     "x": 1540,
+     "y": 230,
+     "delay": 1.0
+    }
+   ]
+  },
+  "S23b": {
+   "type": "tableau",
+   "desc": "Same; a counter top left counts the bubbles 1, 2, 3. Near the end of the line a fourth 'not mine' bubble pops up between the first two doors, where there is no door, and the counter ticks to 4. A red circle draws around the fourth bubble.",
+   "elements": [
+    {
+     "el": "door",
+     "x": 820,
+     "y": 780,
+     "h": 460,
+     "state": "closed",
+     "opacity": 0.8
+    },
+    {
+     "el": "door",
+     "x": 1180,
+     "y": 780,
+     "h": 460,
+     "state": "closed",
+     "opacity": 0.8
+    },
+    {
+     "el": "door",
+     "x": 1540,
+     "y": 780,
+     "h": 460,
+     "state": "closed",
+     "opacity": 0.8
+    },
+    {
+     "el": "person",
+     "pose": "stand",
+     "x": 380,
+     "y": 780,
+     "h": 360,
+     "facing": "right"
+    },
+    {
+     "el": "sock",
+     "x": 500,
+     "y": 470,
+     "size": 150,
+     "kind": "theirs",
+     "state": "hang"
+    },
+    {
+     "el": "speech",
+     "text": "not mine",
+     "size": "small",
+     "x": 820,
+     "y": 230
+    },
+    {
+     "el": "speech",
+     "text": "not mine",
+     "size": "small",
+     "x": 1180,
+     "y": 230
+    },
+    {
+     "el": "speech",
+     "text": "not mine",
+     "size": "small",
+     "x": 1540,
+     "y": 230
+    },
+    {
+     "el": "counter",
+     "x": 330,
+     "y": 230,
+     "value": 4,
+     "from": 1,
+     "label": "ANSWERS",
+     "anim": [
+      "count-up"
+     ]
+    },
+    {
+     "el": "speech",
+     "text": "not mine",
+     "size": "small",
+     "x": 1000,
+     "y": 185,
+     "delay": 0.7
+    },
+    {
+     "el": "mark",
+     "type": "circle",
+     "x": 1000,
+     "y": 185,
+     "size": 150,
+     "color": "red",
+     "anim": [
+      "draw-on"
+     ],
+     "delay": 0.9
+    }
+   ],
+   "accent": "red",
+   "same_as": "S23"
+  },
+  "S24": {
+   "type": "counter",
+   "value": 412,
+   "from": 0,
+   "decor": "folder-stack",
+   "decorCount": 9,
+   "x": 840,
+   "label": "HOUSEHOLDS THAT ASKED",
+   "desc": "Big number counts up to 412 next to a growing stack of case folders."
+  },
+  "S25": {
+   "type": "doc",
+   "accent": "red",
+   "desc": "Household record on paper (same form as Advisory 0001): OCCUPANTS 3, ANSWERS 'NOT MINE' 4. A third line types itself in red: DIFFERENCE 1.",
+   "doc": {
+    "header": [
+     "HOUSEHOLD RECORD",
+     "FORM UR-7"
+    ],
+    "lines": [
+     "OCCUPANTS ............ 3",
+     "ANSWERS \"NOT MINE\" ... 4",
+     "DIFFERENCE ........... 1"
+    ],
+    "anim": "type-line",
+    "type_line": 2,
+    "highlight": [
+     2
+    ],
+    "highlight_color": "red"
+   }
+  },
+  "S26": {
+   "type": "tableau",
+   "desc": "The hallway again, empty and darker. The person is gone. The grey sock lies on the hallway floor in front of the middle door.",
+   "elements": [
+    {
+     "el": "door",
+     "x": 820,
+     "y": 780,
+     "h": 460,
+     "state": "closed",
+     "opacity": 0.8
+    },
+    {
+     "el": "door",
+     "x": 1180,
+     "y": 780,
+     "h": 460,
+     "state": "closed",
+     "opacity": 0.8
+    },
+    {
+     "el": "door",
+     "x": 1540,
+     "y": 780,
+     "h": 460,
+     "state": "closed",
+     "opacity": 0.8
+    },
+    {
+     "el": "sock",
+     "x": 1180,
+     "y": 780,
+     "size": 140,
+     "kind": "theirs",
+     "state": "flat"
+    }
+   ],
+   "dim": 0.6
+  },
+  "C3": {
+   "type": "directive-card",
+   "n": 3,
+   "title": "DO NOT THROW IT AWAY"
+  },
+  "S28": {
+   "type": "doc",
+   "same_as": "S06b",
+   "desc": "Callback to the advisory memo: the red VIOLATED stamp on DIRECTIVE 3 pulses once."
+  },
+  "S29": {
+   "type": "tableau",
+   "desc": "Kitchen. Person standing on the left; a pedal bin on the right with its lid open. The grey sock drops from above into the bin.",
+   "elements": [
+    {
+     "el": "person",
+     "pose": "stand",
+     "x": 720,
+     "y": 780,
+     "h": 360,
+     "facing": "right"
+    },
+    {
+     "el": "bin",
+     "x": 1120,
+     "y": 780,
+     "h": 280,
+     "kind": "pedal",
+     "lid": "open"
+    },
+    {
+     "el": "sock",
+     "x": 1120,
+     "y": 300,
+     "size": 140,
+     "kind": "theirs",
+     "state": "hang",
+     "drop": {
+      "toY": 520
+     }
+    }
+   ]
+  },
+  "S30": {
+   "type": "tableau",
+   "desc": "Outside the front door at night: a wheelie bin, lid closed, beside the closed door. Window with moon.",
+   "elements": [
+    {
+     "el": "door",
+     "x": 680,
+     "y": 780,
+     "h": 540,
+     "state": "closed"
+    },
+    {
+     "el": "bin",
+     "x": 1120,
+     "y": 780,
+     "h": 360,
+     "kind": "wheelie",
+     "lid": "closed"
+    },
+    {
+     "el": "window",
+     "x": 1520,
+     "y": 330,
+     "sky": "moon"
+    }
+   ]
+  },
+  "S31": {
+   "type": "case-file",
+   "number": "0927",
+   "location": "CARDIFF, UK",
+   "label": "CASE FILE",
+   "desc": "Manila case folder with paper clip and a typed label: CASE 0927 / CARDIFF, UK. A red UNLISTED stamp in the corner."
+  },
+  "S32": {
+   "type": "tableau",
+   "desc": "The wheelie bin on its own, lid closed, centred. A blue label: WED.",
+   "elements": [
+    {
+     "el": "bin",
+     "x": 960,
+     "y": 780,
+     "h": 380,
+     "kind": "wheelie",
+     "lid": "closed"
+    },
+    {
+     "el": "label",
+     "text": "WED",
+     "target": {
+      "x": 1060,
+      "y": 420
+     },
+     "color": "blue",
+     "anim": [
+      "draw-on"
+     ]
+    }
+   ],
+   "accent": "blue"
+  },
+  "S33": {
+   "type": "tableau",
+   "desc": "Same spot, the bin is gone: only its dashed outline on the pavement. Blue label: THU.",
+   "elements": [
+    {
+     "el": "bin",
+     "x": 960,
+     "y": 780,
+     "h": 380,
+     "kind": "wheelie",
+     "ghost": true
+    },
+    {
+     "el": "label",
+     "text": "THU",
+     "target": {
+      "x": 1060,
+      "y": 420
+     },
+     "color": "blue",
+     "anim": [
+      "draw-on"
+     ]
+    }
+   ],
+   "accent": "blue"
+  },
+  "S34": {
+   "type": "tableau",
+   "desc": "Her washing machine, door closed, drum still. Through the door glass the grey sock is visible, alone in the drum. Red label: FRI.",
+   "elements": [
+    {
+     "el": "washing-machine",
+     "x": 960,
+     "y": 780,
+     "h": 460,
+     "door": "closed",
+     "drum": "still",
+     "contents": "one-grey",
+     "light": "off"
+    },
+    {
+     "el": "label",
+     "text": "FRI",
+     "target": {
+      "x": 1110,
+      "y": 400
+     },
+     "color": "red",
+     "anim": [
+      "draw-on"
+     ]
+    }
+   ],
+   "accent": "red"
+  },
+  "S35": {
+   "type": "tableau",
+   "desc": "Close-up: the grey sock, neatly folded in three, lying on a dark surface. Perfectly square edges. Slow push.",
+   "elements": [
+    {
+     "el": "sock",
+     "x": 960,
+     "y": 700,
+     "size": 520,
+     "kind": "theirs",
+     "state": "folded"
+    }
+   ],
+   "camera": {
+    "move": "push",
+    "from": 1.0,
+    "to": 1.05
+   }
+  },
+  "S35b": {
+   "type": "tableau",
+   "desc": "Hold on the folded sock.",
+   "elements": [
+    {
+     "el": "sock",
+     "x": 960,
+     "y": 700,
+     "size": 520,
+     "kind": "theirs",
+     "state": "folded"
+    }
+   ],
+   "same_as": "S35"
+  },
+  "S36": {
+   "type": "tableau",
+   "desc": "Her laundry room, dark. The machine on the right. In the empty space to its left the inspector silhouette is barely visible (opacity 0.07) for the whole line. Do not make it obvious.",
+   "elements": [
+    {
+     "el": "washing-machine",
+     "x": 1220,
+     "y": 780,
+     "h": 340,
+     "drum": "still",
+     "light": "off"
+    },
+    {
+     "el": "sock",
+     "x": 1220,
+     "y": 440,
+     "size": 130,
+     "kind": "theirs",
+     "state": "folded"
+    },
+    {
+     "el": "inspector",
+     "pose": "stand",
+     "x": 820,
+     "y": 780,
+     "h": 520,
+     "opacity": 0.07
+    }
+   ],
+   "dim": 0.6
+  },
+  "S37": {
+   "type": "doc",
+   "desc": "A typed memo line appears letter by letter: 'ITEM WAS FOLDED BY', then a black redaction bar wipes over the rest of the line.",
+   "doc": {
+    "lines": [
+     "CASE 0927 — FOLLOW-UP",
+     "ITEM WAS FOLDED BY ████████████████"
+    ],
+    "anim": "typewriter-then-redact"
+   }
+  },
+  "C4": {
+   "type": "directive-card",
+   "n": 4,
+   "title": "LEAVE IT ON THE MACHINE"
+  },
+  "S39": {
+   "type": "tableau",
+   "desc": "A chest of drawers; the top drawer stands slightly open with the grey sock's cuff poking out. A red cross draws over the drawer.",
+   "elements": [
+    {
+     "el": "drawers",
+     "x": 960,
+     "y": 780,
+     "h": 440,
+     "open": [
+      0
+     ],
+     "sock": 0
+    },
+    {
+     "el": "mark",
+     "type": "cross",
+     "x": 960,
+     "y": 400,
+     "size": 200,
+     "color": "red",
+     "anim": [
+      "draw-on"
+     ]
+    }
+   ],
+   "accent": "red"
+  },
+  "S40": {
+   "type": "tableau",
+   "desc": "Bedroom: bed on the left, a low bedside chest of drawers on the right with the grey sock lying on top. A red cross draws over the sock.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 560,
+     "y": 300,
+     "sky": "moon"
+    },
+    {
+     "el": "bed",
+     "x": 780,
+     "y": 780,
+     "w": 640
+    },
+    {
+     "el": "drawers",
+     "x": 1360,
+     "y": 780,
+     "h": 230,
+     "rows": 2
+    },
+    {
+     "el": "sock",
+     "x": 1360,
+     "y": 550,
+     "size": 130,
+     "kind": "theirs",
+     "state": "flat"
+    },
+    {
+     "el": "mark",
+     "type": "cross",
+     "x": 1360,
+     "y": 500,
+     "size": 150,
+     "color": "red",
+     "anim": [
+      "draw-on"
+     ],
+     "delay": 0.3
+    }
+   ],
+   "accent": "red"
+  },
+  "S41": {
+   "type": "tableau",
+   "desc": "Dark room, two chests of drawers. Their drawers slide open one by one, top to bottom, first the left chest then the right, as if searched. Nothing visible doing it.",
+   "elements": [
+    {
+     "el": "drawers",
+     "x": 680,
+     "y": 780,
+     "h": 440,
+     "open": "sequence"
+    },
+    {
+     "el": "drawers",
+     "x": 1240,
+     "y": 780,
+     "h": 440,
+     "open": "sequence",
+     "delay": 0.9
+    }
+   ],
+   "dim": 0.55,
+   "accent": "red"
+  },
+  "S42": {
+   "type": "tableau",
+   "desc": "The washing machine; the grey sock lies flat on top of it. A blue check pops in beside it.",
+   "elements": [
+    {
+     "el": "washing-machine",
+     "x": 960,
+     "y": 780,
+     "h": 420,
+     "drum": "still",
+     "light": "off"
+    },
+    {
+     "el": "sock",
+     "x": 960,
+     "y": 360,
+     "size": 210,
+     "kind": "theirs",
+     "state": "flat"
+    },
+    {
+     "el": "mark",
+     "type": "check",
+     "x": 1260,
+     "y": 340,
+     "size": 110,
+     "color": "blue",
+     "anim": [
+      "pop-in"
+     ]
+    }
+   ],
+   "accent": "blue"
+  },
+  "S43": {
+   "type": "tableau",
+   "desc": "Same machine, wider: the sock on top smooths itself flat (its creases ease out). A blue dashed path draws on the floor from the left edge of the frame (the open laundry-room door, off-screen) to the machine. Blue label: DOOR: OPEN, pointing left.",
+   "elements": [
+    {
+     "el": "washing-machine",
+     "x": 1200,
+     "y": 780,
+     "h": 420,
+     "drum": "still",
+     "light": "off"
+    },
+    {
+     "el": "sock",
+     "x": 1200,
+     "y": 360,
+     "size": 210,
+     "kind": "theirs",
+     "state": "flat",
+     "anim": [
+      "smooth"
+     ]
+    },
+    {
+     "el": "boundary",
+     "x1": 40,
+     "y1": 805,
+     "x2": 1000,
+     "y2": 805,
+     "color": "blue",
+     "anim": [
+      "draw-on"
+     ]
+    },
+    {
+     "el": "label",
+     "text": "DOOR: OPEN",
+     "target": {
+      "x": 140,
+      "y": 700
+     },
+     "color": "blue",
+     "anim": [
+      "draw-on"
+     ],
+     "delay": 0.6
+    }
+   ],
+   "accent": "blue"
+  },
+  "S44": {
+   "type": "tableau",
+   "desc": "Bedroom at night: person asleep in bed, window with moon, a small clock reading 01:12.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 1420,
+     "y": 300,
+     "sky": "moon"
+    },
+    {
+     "el": "clock",
+     "x": 1700,
+     "y": 260,
+     "r": 60,
+     "time": "01:12"
+    },
+    {
+     "el": "bed",
+     "x": 820,
+     "y": 780,
+     "w": 700
+    },
+    {
+     "el": "person",
+     "pose": "lie-bed",
+     "x": 770,
+     "y": 629,
+     "h": 150
+    }
+   ]
+  },
+  "S44b": {
+   "type": "tableau",
+   "desc": "Hold on the bedroom.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 1420,
+     "y": 300,
+     "sky": "moon"
+    },
+    {
+     "el": "clock",
+     "x": 1700,
+     "y": 260,
+     "r": 60,
+     "time": "01:12"
+    },
+    {
+     "el": "bed",
+     "x": 820,
+     "y": 780,
+     "w": 700
+    },
+    {
+     "el": "person",
+     "pose": "lie-bed",
+     "x": 770,
+     "y": 629,
+     "h": 150
+    }
+   ],
+   "same_as": "S44"
+  },
+  "C5": {
+   "type": "directive-card",
+   "n": 5,
+   "title": "DO NOT COUNT THE STEPS"
+  },
+  "S46": {
+   "type": "tableau",
+   "desc": "The home at night, wide and dim: window with moon, wall clock 02:10 ticking. Three thin blue labels point at ordinary places: PIPES, FRIDGE, FLOORBOARDS.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 560,
+     "y": 300,
+     "sky": "moon"
+    },
+    {
+     "el": "clock",
+     "x": 1380,
+     "y": 320,
+     "r": 110,
+     "time": "02:10",
+     "anim": [
+      "tick"
+     ]
+    },
+    {
+     "el": "label",
+     "text": "PIPES",
+     "target": {
+      "x": 300,
+      "y": 640
+     },
+     "color": "blue",
+     "anim": [
+      "draw-on"
+     ]
+    },
+    {
+     "el": "label",
+     "text": "FRIDGE",
+     "target": {
+      "x": 900,
+      "y": 560
+     },
+     "color": "blue",
+     "anim": [
+      "draw-on"
+     ],
+     "delay": 0.4
+    },
+    {
+     "el": "label",
+     "text": "FLOORBOARDS",
+     "target": {
+      "x": 1100,
+      "y": 790
+     },
+     "color": "blue",
+     "anim": [
+      "draw-on"
+     ],
+     "delay": 0.8
+    }
+   ],
+   "accent": "blue"
+  },
+  "S47": {
+   "type": "tableau",
+   "desc": "Same room, the labels are gone and the frame darkens. Nothing moves. The second hand stops. Sound drops to silence.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 560,
+     "y": 300,
+     "sky": "moon"
+    },
+    {
+     "el": "clock",
+     "x": 1380,
+     "y": 320,
+     "r": 110,
+     "time": "02:10"
+    }
+   ],
+   "dim": 0.6
+  },
+  "S48": {
+   "type": "tableau",
+   "desc": "Dark hallway, two closed doors in the background. A line of footprints appears on the floor from left to right, one at a time, as if someone is walking there. Nobody is visible. The prints alternate: a soft sock print, then a bare footprint with small sound arcs.",
+   "elements": [
+    {
+     "el": "door",
+     "x": 700,
+     "y": 780,
+     "h": 480,
+     "state": "closed",
+     "opacity": 0.6
+    },
+    {
+     "el": "door",
+     "x": 1300,
+     "y": 780,
+     "h": 480,
+     "state": "closed",
+     "opacity": 0.6
+    },
+    {
+     "el": "steps",
+     "fromX": 160,
+     "toX": 1600,
+     "y": 780,
+     "pattern": "alternate",
+     "draw": "sequence"
+    }
+   ],
+   "dim": 0.4
+  },
+  "S49": {
+   "type": "tableau",
+   "desc": "Floor close-up: one large soft sock print appears. No sound arcs.",
+   "elements": [
+    {
+     "el": "steps",
+     "fromX": 760,
+     "toX": 760,
+     "y": 700,
+     "scale": 2.6,
+     "pattern": "sock",
+     "draw": "sequence"
+    }
+   ]
+  },
+  "S49b": {
+   "type": "tableau",
+   "desc": "Same close-up: beside it a bare footprint appears, with red sound arcs.",
+   "elements": [
+    {
+     "el": "steps",
+     "fromX": 760,
+     "toX": 760,
+     "y": 700,
+     "scale": 2.6,
+     "pattern": "sock"
+    },
+    {
+     "el": "steps",
+     "fromX": 1160,
+     "toX": 1160,
+     "y": 700,
+     "scale": 2.6,
+     "pattern": "bare",
+     "draw": "sequence",
+     "sound": "red"
+    }
+   ],
+   "accent": "red",
+   "same_as": "S49"
+  },
+  "S50": {
+   "type": "tableau",
+   "desc": "Side view: the person's bedroom door (closed) in the middle. Footprints pass along the floor in front of it from left to right; every second print has red sound arcs.",
+   "elements": [
+    {
+     "el": "door",
+     "x": 960,
+     "y": 780,
+     "h": 500,
+     "state": "closed"
+    },
+    {
+     "el": "steps",
+     "fromX": 180,
+     "toX": 1740,
+     "y": 780,
+     "pattern": "alternate",
+     "draw": "sequence",
+     "sound": "red"
+    }
+   ],
+   "accent": "red"
+  },
+  "S50b": {
+   "type": "tableau",
+   "desc": "Laundry room: the closed door on the left, the washing machine on the right with the grey sock on top. Footprints continue from the left edge past the door and stop just in front of the machine.",
+   "elements": [
+    {
+     "el": "door",
+     "x": 560,
+     "y": 780,
+     "h": 500,
+     "state": "closed"
+    },
+    {
+     "el": "washing-machine",
+     "x": 1540,
+     "y": 780,
+     "h": 300,
+     "drum": "still",
+     "light": "off"
+    },
+    {
+     "el": "sock",
+     "x": 1540,
+     "y": 480,
+     "size": 190,
+     "kind": "theirs",
+     "state": "flat"
+    },
+    {
+     "el": "steps",
+     "fromX": 40,
+     "toX": 1300,
+     "y": 780,
+     "pattern": "alternate",
+     "draw": "sequence",
+     "sound": "red"
+    }
+   ],
+   "accent": "red"
+  },
+  "S51": {
+   "type": "tableau",
+   "desc": "Bedroom: the person in bed, red outline. The bedroom door on the right is closed; beyond it, faint red sound arcs pulse at floor level every second beat.",
+   "elements": [
+    {
+     "el": "bed",
+     "x": 780,
+     "y": 780,
+     "w": 700
+    },
+    {
+     "el": "person",
+     "pose": "lie-bed",
+     "x": 730,
+     "y": 629,
+     "h": 150,
+     "outline": "red"
+    },
+    {
+     "el": "door",
+     "x": 1520,
+     "y": 780,
+     "h": 520,
+     "state": "closed"
+    },
+    {
+     "el": "steps",
+     "fromX": 1680,
+     "toX": 1880,
+     "y": 780,
+     "pattern": "alternate",
+     "draw": "sequence",
+     "sound": "red",
+     "opacity": 0.6
+    }
+   ],
+   "accent": "red"
+  },
+  "S52": {
+   "type": "tableau",
+   "desc": "Laundry room, close: the machine with the grey sock on top. The last footprints arrive from the left and stop right in front of the machine; the final one is bare. For a moment (60–90% of the line) the inspector is barely visible standing where the prints end (opacity 0.08).",
+   "elements": [
+    {
+     "el": "washing-machine",
+     "x": 1180,
+     "y": 780,
+     "h": 340,
+     "drum": "still",
+     "light": "off"
+    },
+    {
+     "el": "sock",
+     "x": 1180,
+     "y": 440,
+     "size": 200,
+     "kind": "theirs",
+     "state": "flat"
+    },
+    {
+     "el": "steps",
+     "fromX": 180,
+     "toX": 900,
+     "y": 780,
+     "pattern": "alternate",
+     "draw": "sequence",
+     "sound": "red"
+    },
+    {
+     "el": "inspector",
+     "pose": "stand",
+     "x": 900,
+     "y": 780,
+     "h": 520,
+     "opacity": 0.08,
+     "visible_frames": [
+      0.6,
+      0.9
+     ]
+    }
+   ]
+  },
+  "SLIP1": {
+   "type": "tableau",
+   "desc": "STYLE BREAK (slip): the frame turns grey-scale and softer. Low close-up beside the washing machine: two feet under a long coat hem, the left foot bare, the right foot in a grey wool sock. Perfectly still. Brief tracking-line glitch at start.",
+   "elements": [
+    {
+     "el": "washing-machine",
+     "x": 1500,
+     "y": 780,
+     "h": 600,
+     "drum": "still",
+     "light": "off",
+     "color": "grey"
+    },
+    {
+     "el": "sock-feet",
+     "x": 860,
+     "y": 780,
+     "h": 520,
+     "left": "bare",
+     "right": "sock",
+     "color": "grey"
+    }
+   ],
+   "style": "slip"
+  },
+  "SLIP2": {
+   "type": "tableau",
+   "desc": "The inspector bust, centred, faceless, hat and coat collar. Slight carbon-offset jitter.",
+   "elements": [
+    {
+     "el": "inspector",
+     "pose": "bust",
+     "x": 960,
+     "y": 560,
+     "h": 440,
+     "anim": [
+      "carbon-jitter"
+     ]
+    }
+   ]
+  },
+  "SLIP3": {
+   "type": "doc",
+   "desc": "A typed transcript line 'OUR LEFT FOOT GETS COLD.' gets covered left-to-right by a black redaction bar. A small stamp REDACTED appears.",
+   "doc": {
+    "lines": [
+     "TRANSCRIPT — ADVISORY 0003",
+     "OUR LEFT FOOT GETS COLD."
+    ],
+    "anim": "redact-line",
+    "redact_line": 1,
+    "stamp": {
+     "text": "REDACTED",
+     "color": "red",
+     "anim": "stamp"
+    }
+   }
+  },
+  "C6": {
+   "type": "directive-card",
+   "n": 6,
+   "title": "DO NOT BLAME THE MACHINE"
+  },
+  "S55": {
+   "type": "tableau",
+   "desc": "Morning: window with sun. The washing machine; on top of it only a dashed outline where the grey sock lay. It is gone.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 1460,
+     "y": 330,
+     "sky": "sun"
+    },
+    {
+     "el": "washing-machine",
+     "x": 900,
+     "y": 780,
+     "h": 420,
+     "drum": "still",
+     "light": "off"
+    },
+    {
+     "el": "sock",
+     "x": 900,
+     "y": 360,
+     "size": 210,
+     "kind": "theirs",
+     "state": "flat",
+     "ghost": true
+    }
+   ]
+  },
+  "S56": {
+   "type": "tableau",
+   "desc": "Daytime. Person standing on the left, relaxed; the washing machine on the right running, drum turning with socks inside, display 40°.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 1500,
+     "y": 300,
+     "sky": "day"
+    },
+    {
+     "el": "person",
+     "pose": "stand",
+     "x": 620,
+     "y": 780,
+     "h": 360,
+     "facing": "right"
+    },
+    {
+     "el": "washing-machine",
+     "x": 1100,
+     "y": 780,
+     "h": 250,
+     "drum": "spin",
+     "contents": "socks",
+     "display": "40°",
+     "light": "blue"
+    }
+   ]
+  },
+  "S57": {
+   "type": "tableau",
+   "desc": "Callback to S09 with a different pattern: a pair of dotted socks; halfway through, the right one fades away.",
+   "elements": [
+    {
+     "el": "sock",
+     "x": 820,
+     "y": 620,
+     "size": 330,
+     "kind": "yours",
+     "pattern": "dots",
+     "state": "flat",
+     "rot": -90
+    },
+    {
+     "el": "sock",
+     "x": 1100,
+     "y": 620,
+     "size": 330,
+     "kind": "yours",
+     "pattern": "dots",
+     "state": "flat",
+     "rot": -90,
+     "anim": [
+      "fade-out"
+     ],
+     "delay": 0.8
+    }
+   ]
+  },
+  "S58": {
+   "type": "calendar",
+   "value": 9,
+   "fromYear": 2017,
+   "toYear": 2026,
+   "pageLabel": "WASH",
+   "label": "YEARS",
+   "desc": "Tear-off calendar pages flip quickly from 2017 to 2026; a counter beside it reaches 9 YEARS."
+  },
+  "S59": {
+   "type": "counter",
+   "value": 206,
+   "from": 0,
+   "decor": "dots-grid",
+   "label": "SOCKS LOST",
+   "desc": "Big number counts up to 206; one dot per lost sock fills in behind it."
+  },
+  "S60": {
+   "type": "tableau",
+   "desc": "Person on the left with a small speech bubble 'it eats socks'. The basket of odd socks in the middle, the washing machine on the right.",
+   "elements": [
+    {
+     "el": "person",
+     "pose": "stand",
+     "x": 480,
+     "y": 780,
+     "h": 360,
+     "facing": "right"
+    },
+    {
+     "el": "speech",
+     "from": "person.head",
+     "text": "it eats socks",
+     "size": "small",
+     "x": 640,
+     "y": 260
+    },
+    {
+     "el": "sock-basket",
+     "x": 880,
+     "y": 780,
+     "w": 300,
+     "count": 10
+    },
+    {
+     "el": "washing-machine",
+     "x": 1340,
+     "y": 780,
+     "h": 250,
+     "drum": "still",
+     "light": "off"
+    }
+   ]
+  },
+  "S61": {
+   "type": "drum-view",
+   "desc": "Full-frame close-up through the door glass. The socks tumble slowly, then sort themselves: your socks drift to the left half of the drum, the grey ones to the right. A thin blue line draws down the middle.",
+   "drum": {
+    "spin": "slow",
+    "contents": [
+     {
+      "kind": "yours",
+      "pattern": "stripe"
+     },
+     {
+      "kind": "yours",
+      "pattern": "dots"
+     },
+     {
+      "kind": "yours",
+      "pattern": "plain"
+     },
+     {
+      "kind": "yours",
+      "pattern": "heel"
+     },
+     {
+      "kind": "yours",
+      "pattern": "stripe"
+     },
+     {
+      "kind": "theirs"
+     },
+     {
+      "kind": "theirs"
+     },
+     {
+      "kind": "theirs"
+     }
+    ],
+    "mode": "sort"
+   },
+   "accent": "blue"
+  },
+  "S61b": {
+   "type": "drum-view",
+   "same_as": "S61",
+   "desc": "Same, darker. Mono labels draw under the two groups: YOURS (left), THEIRS (right).",
+   "drum": {
+    "spin": "slow",
+    "contents": [
+     {
+      "kind": "yours",
+      "pattern": "stripe"
+     },
+     {
+      "kind": "yours",
+      "pattern": "dots"
+     },
+     {
+      "kind": "yours",
+      "pattern": "plain"
+     },
+     {
+      "kind": "yours",
+      "pattern": "heel"
+     },
+     {
+      "kind": "yours",
+      "pattern": "stripe"
+     },
+     {
+      "kind": "theirs"
+     },
+     {
+      "kind": "theirs"
+     },
+     {
+      "kind": "theirs"
+     }
+    ],
+    "mode": "sorted",
+    "dark": true,
+    "labels": true
+   }
+  },
+  "S62": {
+   "type": "drum-view",
+   "desc": "The drum close-up, socks tumbling. The gap between drum and door seal at the lower left is outlined in dim blue. One of your striped socks slides into the gap and is gone.",
+   "drum": {
+    "spin": "slow",
+    "contents": [
+     {
+      "kind": "yours",
+      "pattern": "stripe"
+     },
+     {
+      "kind": "yours",
+      "pattern": "dots"
+     },
+     {
+      "kind": "yours",
+      "pattern": "plain"
+     },
+     {
+      "kind": "yours",
+      "pattern": "heel"
+     },
+     {
+      "kind": "yours",
+      "pattern": "stripe"
+     },
+     {
+      "kind": "theirs"
+     },
+     {
+      "kind": "theirs"
+     },
+     {
+      "kind": "theirs"
+     }
+    ],
+    "gap": true,
+    "through": {
+     "kind": "yours",
+     "pattern": "stripe",
+     "at": 0.35
+    }
+   }
+  },
+  "S63": {
+   "type": "tableau",
+   "desc": "Calm, wide: the person sitting on the floor with their back to us, a little left of centre; the washing machine to the right, running slowly. A soft blue glow from the door glass.",
+   "elements": [
+    {
+     "el": "person",
+     "pose": "sit-floor",
+     "x": 820,
+     "y": 780,
+     "h": 260,
+     "facing": "back"
+    },
+    {
+     "el": "washing-machine",
+     "x": 1220,
+     "y": 780,
+     "h": 250,
+     "drum": "slow",
+     "contents": "socks",
+     "light": "blue"
+    },
+    {
+     "el": "glow",
+     "x": 1220,
+     "y": 640,
+     "r": 300,
+     "color": "blue",
+     "opacity": 0.16
+    }
+   ]
+  },
+  "S64": {
+   "type": "tableau",
+   "desc": "The washing machine, close and front-on, older: display dim, drum turning slowly and unevenly, the whole machine shudders slightly once every couple of seconds.",
+   "elements": [
+    {
+     "el": "washing-machine",
+     "x": 960,
+     "y": 780,
+     "h": 470,
+     "drum": "slow",
+     "contents": "socks",
+     "age": "old",
+     "light": "dim"
+    }
+   ]
+  },
+  "S65": {
+   "type": "tableau",
+   "desc": "Wide, calm closing image of the directive: the person sits on the floor beside the old machine, facing it, keeping it company. Soft blue glow. Slow pull-back.",
+   "elements": [
+    {
+     "el": "person",
+     "pose": "sit-floor",
+     "x": 820,
+     "y": 780,
+     "h": 260,
+     "facing": "right"
+    },
+    {
+     "el": "washing-machine",
+     "x": 1180,
+     "y": 780,
+     "h": 250,
+     "drum": "slow",
+     "contents": "socks",
+     "age": "old",
+     "light": "dim"
+    },
+    {
+     "el": "glow",
+     "x": 1020,
+     "y": 640,
+     "r": 400,
+     "color": "blue",
+     "opacity": 0.14
+    }
+   ],
+   "camera": {
+    "move": "pull-back",
+    "from": 1.06,
+    "to": 1.0
+   }
+  },
+  "AD": {
+   "type": "addendum-card",
+   "title": "ADDENDUM"
+  },
+  "S67": {
+   "type": "tableau",
+   "desc": "Person standing next to the advisory memo, with a thought bubble '?'.",
+   "elements": [
+    {
+     "el": "person",
+     "pose": "stand",
+     "x": 740,
+     "y": 780,
+     "h": 360,
+     "facing": "right"
+    },
+    {
+     "el": "thought",
+     "text": "?",
+     "x": 860,
+     "y": 320
+    },
+    {
+     "el": "doc-mini",
+     "x": 1240,
+     "y": 560,
+     "w": 320
+    }
+   ]
+  },
+  "S68": {
+   "type": "doc",
+   "desc": "Official kit list on paper: HAT 1, COAT 1, CLIPBOARD 1, SOCKS, WOOL, GREY 1 PAIR, SHOES NOT ISSUED. The SHOES line is highlighted in blue.",
+   "doc": {
+    "header": [
+     "DEPARTMENT OF UNLISTED RISKS",
+     "INSPECTOR ISSUE — STANDARD KIT"
+    ],
+    "lines": [
+     "HAT, BRIMMED ............ 1",
+     "COAT, LONG .............. 1",
+     "CLIPBOARD ............... 1",
+     "SOCKS, WOOL, GREY ....... 1 PAIR",
+     "SHOES ................... NOT ISSUED"
+    ],
+    "highlight": [
+     4
+    ],
+    "highlight_color": "blue",
+    "anim": "slide-up"
+   }
+  },
+  "S68b": {
+   "type": "doc",
+   "same_as": "S68",
+   "accent": "red",
+   "desc": "Same list; the SHOES line highlight turns red.",
+   "doc": {
+    "highlight": [
+     4
+    ],
+    "highlight_color": "red"
+   }
+  },
+  "S69": {
+   "type": "tableau",
+   "desc": "Low close-up: the inspector's lower legs under the long coat hem, both feet in grey wool socks, slightly too long. They take two slow, silent steps to the right.",
+   "elements": [
+    {
+     "el": "sock-feet",
+     "x": 760,
+     "y": 780,
+     "h": 540,
+     "left": "sock",
+     "right": "sock",
+     "anim": [
+      "walk"
+     ],
+     "walk": {
+      "dx": 360
+     }
+    }
+   ]
+  },
+  "S70": {
+   "type": "tableau",
+   "desc": "Same close-up: the feet step on, and the left sock slips off and stays behind on the floor. The left foot is now bare.",
+   "elements": [
+    {
+     "el": "sock-feet",
+     "x": 760,
+     "y": 780,
+     "h": 540,
+     "left": "sock",
+     "right": "sock",
+     "anim": [
+      "lose-sock"
+     ],
+     "walk": {
+      "dx": 420
+     }
+    }
+   ]
+  },
+  "S71": {
+   "type": "doc",
+   "desc": "Notice on paper: ITEM LEFT ON PREMISES. ITEM: SOCK, WOOL, GREY (1). LOCATION: LAUNDRY. INSPECTION: NOT FINISHED. A red stamp OPEN slams onto the last line.",
+   "doc": {
+    "header": [
+     "DEPARTMENT OF UNLISTED RISKS",
+     "NOTICE — ITEM LEFT ON PREMISES"
+    ],
+    "lines": [
+     "ITEM ................ SOCK, WOOL, GREY (1)",
+     "LOCATION ............ LAUNDRY",
+     "INSPECTION .......... NOT FINISHED"
+    ],
+    "stamp": {
+     "text": "OPEN",
+     "line": 2,
+     "color": "red",
+     "anim": "stamp"
+    }
+   }
+  },
+  "S72": {
+   "type": "tableau",
+   "desc": "The front door at night, closed. Footprints arrive along the floor from the left and stop at the door; every second print has red sound arcs.",
+   "elements": [
+    {
+     "el": "door",
+     "x": 1100,
+     "y": 780,
+     "h": 540,
+     "state": "closed"
+    },
+    {
+     "el": "mat",
+     "x": 1100,
+     "y": 790,
+     "w": 260
+    },
+    {
+     "el": "window",
+     "x": 1580,
+     "y": 330,
+     "sky": "moon"
+    },
+    {
+     "el": "steps",
+     "fromX": 120,
+     "toX": 940,
+     "y": 780,
+     "pattern": "alternate",
+     "draw": "sequence",
+     "sound": "red"
+    }
+   ]
+  },
+  "S73": {
+   "type": "seal",
+   "desc": "Department seal: circular emblem, ring text DEPARTMENT OF UNLISTED RISKS, house outline with an open eye, EST. 1914. Slow rotation in of the ring text."
+  },
+  "S74": {
+   "type": "tableau",
+   "desc": "First clear reveal: the laundry room at night. The inspector stands beside the washing machine, fully visible, grey, faceless, clipboard in hand. The grey sock lies on top of the machine. Carbon-offset shimmer on the inspector's outline.",
+   "elements": [
+    {
+     "el": "washing-machine",
+     "x": 1240,
+     "y": 780,
+     "h": 360,
+     "drum": "still",
+     "light": "off"
+    },
+    {
+     "el": "sock",
+     "x": 1240,
+     "y": 420,
+     "size": 200,
+     "kind": "theirs",
+     "state": "flat"
+    },
+    {
+     "el": "inspector",
+     "pose": "stand",
+     "x": 860,
+     "y": 780,
+     "h": 540,
+     "opacity": 0.9,
+     "anim": [
+      "carbon-jitter"
+     ]
+    }
+   ],
+   "accent": "blue"
+  },
+  "S75": {
+   "type": "drum-view",
+   "desc": "The drum close-up again. The gap at the lower left is outlined in blue. A grey sock slides into the gap and is gone.",
+   "drum": {
+    "spin": "slow",
+    "contents": [
+     {
+      "kind": "theirs"
+     },
+     {
+      "kind": "yours",
+      "pattern": "stripe"
+     },
+     {
+      "kind": "yours",
+      "pattern": "dots"
+     },
+     {
+      "kind": "yours",
+      "pattern": "plain"
+     },
+     {
+      "kind": "yours",
+      "pattern": "heel"
+     }
+    ],
+    "gap": true,
+    "through": {
+     "kind": "theirs",
+     "at": 0.3
+    }
+   },
+   "accent": "blue"
+  },
+  "S76": {
+   "type": "doc",
+   "desc": "Household record: INSPECTIONS 9, RETURN VISITS 0, WASHING MACHINE 1. The RETURN VISITS line is highlighted in blue.",
+   "doc": {
+    "header": [
+     "HOUSEHOLD RECORD",
+     "FORM UR-7"
+    ],
+    "lines": [
+     "INSPECTIONS ......... 9",
+     "RETURN VISITS ....... 0",
+     "WASHING MACHINE ..... 1"
+    ],
+    "highlight": [
+     1
+    ],
+    "highlight_color": "blue"
+   }
+  },
+  "S77": {
+   "type": "doc",
+   "same_as": "S76",
+   "desc": "Same record. A red stamp LISTED RISK slams onto WASHING MACHINE.",
+   "doc": {
+    "highlight": [],
+    "stamp": {
+     "text": "LISTED RISK",
+     "line": 2,
+     "color": "red",
+     "anim": "stamp"
+    }
+   }
+  },
+  "S78": {
+   "type": "tableau",
+   "same_as": "S01",
+   "desc": "Callback to S01: the laundry corner at night, door open, washing spilling out, one grey sock apart on the floor. Slow push."
+  },
+  "S79": {
+   "type": "tableau",
+   "desc": "The grey sock lying flat on top of the washing machine, still.",
+   "elements": [
+    {
+     "el": "washing-machine",
+     "x": 960,
+     "y": 780,
+     "h": 420,
+     "drum": "still",
+     "light": "off"
+    },
+    {
+     "el": "sock",
+     "x": 960,
+     "y": 360,
+     "size": 210,
+     "kind": "theirs",
+     "state": "flat"
+    }
+   ]
+  },
+  "S80": {
+   "type": "tableau",
+   "desc": "Callback to S44: the bedroom at night, person in bed, darker.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 1420,
+     "y": 300,
+     "sky": "moon"
+    },
+    {
+     "el": "clock",
+     "x": 1700,
+     "y": 260,
+     "r": 60,
+     "time": "02:10"
+    },
+    {
+     "el": "bed",
+     "x": 820,
+     "y": 780,
+     "w": 700
+    },
+    {
+     "el": "person",
+     "pose": "lie-bed",
+     "x": 770,
+     "y": 629,
+     "h": 150
+    }
+   ],
+   "dim": 0.6
+  },
+  "S81": {
+   "type": "tableau",
+   "desc": "Callback to S03: the grey sock standing in its worn shape, a red cross draws over it.",
+   "elements": [
+    {
+     "el": "sock",
+     "x": 960,
+     "y": 760,
+     "size": 460,
+     "kind": "theirs",
+     "state": "worn"
+    },
+    {
+     "el": "mark",
+     "type": "cross",
+     "x": 960,
+     "y": 500,
+     "size": 380,
+     "color": "red",
+     "anim": [
+      "draw-on"
+     ]
+    }
+   ],
+   "accent": "red"
+  },
+  "S82": {
+   "type": "tableau",
+   "desc": "The washing machine at night, door closed, drum still, display END. Nothing else.",
+   "elements": [
+    {
+     "el": "washing-machine",
+     "x": 960,
+     "y": 780,
+     "h": 440,
+     "drum": "still",
+     "display": "END",
+     "light": "dim"
+    }
+   ],
+   "camera": {
+    "move": "pull-back",
+    "from": 1.04,
+    "to": 1.0
+   }
+  },
+  "END": {
+   "type": "end-card",
+   "stamp": "RETURNED",
+   "sub": "NEXT ADVISORY: 0004",
+   "desc": "Black frame. A red rubber-stamp 'RETURNED.' slams in at -6° with a thud and small shake. Below it in small mono: NEXT ADVISORY: 0004. Hold 3.0 s, then cut to black."
+  }
+ }
+}
