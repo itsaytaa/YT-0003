@@ -1,28 +1,34 @@
-// Advisory 0003: episode-specific assets. Use the kit first (brand/catalog.json and
-// brand/reference/*.png). Add something here only when this advisory needs a thing the kit
-// can't draw, and declare its name in scenes.json meta.customElements / meta.customShots.
+// Advisory 0003: episode-specific assets, registered under the names declared in
+// scenes.json meta.customElements / meta.customShots. Spec and look:
+// advisories/0003-washing-machine/assets-spec.md and brand/BRAND.md §5.
 //
-// Rules (brand/BRAND.md §5): palette tokens only, figures solid fg with GLOW, furniture as
-// outline-on-surface with 2–3 px strokes, annotations 3 px blue/red, people keep square
-// heads, stand it on the ground line next to a 360 px person to check the scale.
+//   figures (solid fg/grey + glow): washing-machine (machine.tsx), sock (sock.tsx)
+//   set dressing (outline-on-surface): sock-pile, sock-basket, bin, drawers (household.tsx)
+//   annotation-like: steps (steps.tsx) · inspector close-up: sock-feet (feet.tsx)
+//   shot type: drum-view (drum.tsx)
 //
-// Example element, used in scenes.json as { "el": "radiator", "x": 1300, "y": 780, "h": 260 }:
-//
-//   import { C } from "../../theme";
-//   import type { CustomElementProps } from "../../episode-context";
-//   const Radiator: React.FC<CustomElementProps> = ({ e }) => {
-//     const h = e.h ?? 260, w = h * 1.4;
-//     return (
-//       <g transform={`translate(${e.x - w / 2} ${e.y - h})`} fill={C.surface} stroke={C.line} strokeWidth={3}>
-//         <rect width={w} height={h} rx={10} />
-//         {Array.from({ length: 7 }, (_, i) => <line key={i} x1={(i + 1) * w / 8} y1={16} x2={(i + 1) * w / 8} y2={h - 16} />)}
-//       </g>
-//     );
-//   };
-//   export const assets: EpisodeAssets = { elements: { radiator: Radiator } };
-//
-// A whole new shot type gets CustomShotProps ({ shot, frame, dur, fps, audioFrames }) and
-// goes in `shots`, keyed by the type name used in scenes.json.
+// Likely to be promoted into the kit if a later advisory needs them (BRAND.md §6):
+// washing-machine, sock, drawers, bin, steps. sock-feet stays an episode asset.
 import type { EpisodeAssets } from "../../episode-context";
+import { WashingMachine } from "./machine";
+import { Sock } from "./sock";
+import { SockPile, SockBasket, Bin, Drawers } from "./household";
+import { Steps } from "./steps";
+import { SockFeet } from "./feet";
+import { DrumView } from "./drum";
 
-export const assets: EpisodeAssets = {};
+export const assets: EpisodeAssets = {
+  elements: {
+    "washing-machine": WashingMachine,
+    "sock": Sock,
+    "sock-pile": SockPile,
+    "sock-basket": SockBasket,
+    "bin": Bin,
+    "drawers": Drawers,
+    "steps": Steps,
+    "sock-feet": SockFeet,
+  },
+  shots: {
+    "drum-view": DrumView,
+  },
+};

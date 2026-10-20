@@ -1436,7 +1436,7 @@
    "elements": [
     {
      "el": "person",
-     "pose": "stand",
+     "pose": "push",
      "x": 600,
      "y": 780,
      "h": 360,
@@ -1444,8 +1444,8 @@
     },
     {
      "el": "sock",
-     "x": 720,
-     "y": 470,
+     "x": 721,
+     "y": 524,
      "size": 170,
      "kind": "theirs",
      "state": "hang"
@@ -2560,7 +2560,7 @@
     },
     {
      "el": "person",
-     "pose": "stand",
+     "pose": "push",
      "x": 380,
      "y": 780,
      "h": 360,
@@ -2568,8 +2568,8 @@
     },
     {
      "el": "sock",
-     "x": 500,
-     "y": 470,
+     "x": 501,
+     "y": 524,
      "size": 150,
      "kind": "theirs",
      "state": "hang"
@@ -2606,7 +2606,7 @@
     },
     {
      "el": "person",
-     "pose": "stand",
+     "pose": "push",
      "x": 380,
      "y": 780,
      "h": 360,
@@ -2614,8 +2614,8 @@
     },
     {
      "el": "sock",
-     "x": 500,
-     "y": 470,
+     "x": 501,
+     "y": 524,
      "size": 150,
      "kind": "theirs",
      "state": "hang"
@@ -2661,7 +2661,7 @@
     },
     {
      "el": "person",
-     "pose": "stand",
+     "pose": "push",
      "x": 380,
      "y": 780,
      "h": 360,
@@ -2669,8 +2669,8 @@
     },
     {
      "el": "sock",
-     "x": 500,
-     "y": 470,
+     "x": 501,
+     "y": 524,
      "size": 150,
      "kind": "theirs",
      "state": "hang"
@@ -2731,7 +2731,7 @@
     },
     {
      "el": "person",
-     "pose": "stand",
+     "pose": "push",
      "x": 380,
      "y": 780,
      "h": 360,
@@ -2739,8 +2739,8 @@
     },
     {
      "el": "sock",
-     "x": 500,
-     "y": 470,
+     "x": 501,
+     "y": 524,
      "size": 150,
      "kind": "theirs",
      "state": "hang"
@@ -3471,7 +3471,8 @@
      "toX": 1600,
      "y": 780,
      "pattern": "alternate",
-     "draw": "sequence"
+     "draw": "sequence",
+     "sound": "dim"
     }
    ],
    "dim": 0.4
@@ -3487,7 +3488,8 @@
      "y": 700,
      "scale": 2.6,
      "pattern": "sock",
-     "draw": "sequence"
+     "draw": "sequence",
+     "x": 760
     }
    ]
   },
@@ -3501,7 +3503,8 @@
      "toX": 760,
      "y": 700,
      "scale": 2.6,
-     "pattern": "sock"
+     "pattern": "sock",
+     "x": 760
     },
     {
      "el": "steps",
@@ -3511,7 +3514,8 @@
      "scale": 2.6,
      "pattern": "bare",
      "draw": "sequence",
-     "sound": "red"
+     "sound": "red",
+     "x": 1160
     }
    ],
    "accent": "red",

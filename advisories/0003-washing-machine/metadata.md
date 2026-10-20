@@ -11,7 +11,14 @@ The Department of Unlisted Risks has issued six directives for households in whi
 Advisory 0003 · Classification: unlisted
 
 CHAPTERS
-<!-- filled by: node scripts/chapters.mjs --ep 0003 -->
+0:00 Advisory 0003
+0:52 Directive 1: Do not wear it
+1:16 Directive 2: Do not ask whose it is
+1:39 Directive 3: Do not throw it away
+2:10 Directive 4: Leave it on the machine
+2:34 Directive 5: Do not count the steps
+3:08 Directive 6: Do not blame the machine
+3:54 Addendum
 
 This channel is fiction. The Department of Unlisted Risks does not exist. Probably.
 

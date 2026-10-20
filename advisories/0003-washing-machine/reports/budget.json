@@ -1,0 +1,5 @@
+{
+  "baselineUsage": 2.148043723,
+  "maxSpendUsd": 2,
+  "note": "Key usage when this advisory started. Spend = usage - baselineUsage."
+}
