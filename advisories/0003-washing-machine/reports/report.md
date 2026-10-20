@@ -4,10 +4,10 @@
 
 | | |
 |---|---|
-| Final video | `out/advisory-0003-washing-machine-final.mp4`: 1920×1080, 30 fps, H.264 (CRF 16) + AAC 48 kHz 320 kb/s (gitignored, about __SIZE__) |
+| Final video | `out/advisory-0003-washing-machine-final.mp4`: 1920×1080, 30 fps, H.264 (CRF 16) + AAC 48 kHz 320 kb/s (gitignored, 267 MB) |
 | Runtime | **4:54.0** (8,821 frames, including the 3 s end card) |
 | Pause scale factor | **1.0000**: the unscaled runtime (4:54.03) is inside 4:45–5:30, so no `pauseAfter` was scaled |
-| Loudness | __LOUDNESS__ |
+| Loudness | **−14.1 LUFS** integrated, **−1.3 dBTP**, LRA 3.2 LU (`ffmpeg -af ebur128=peak=true`) |
 | Voice | **minimax/speech-2.8-hd, `English_ManWithDeepVoice`** (the locked channel voice, `brand/voice.json → chosen`); no voice test was run |
 | OpenRouter cost | **$0.41** total, measured as key usage minus this advisory's baseline (`reports/budget.json`): voice-over $0.348 (99 lines + 2 regenerations) · STT check $0.031 · alt takes for L071 and their three-model scoring ≈ $0.03. The budget guard stayed at $2 and your cap was $5.00 |
 | Thumbnail | `out/thumbnail.png` (1280×720) |
@@ -50,6 +50,7 @@ The asset test sheets (`reports/asset-sheets/*.png`) show every state, a 360 px 
 ### Process
 - **Branch:** the work is committed on `claude/confident-goodall-ufx6u4`, the branch this session was told to use, instead of `advisory/0003-washing-machine`.
 - **`node scripts/sfx.mjs` fails** (a kit bug): the ffmpeg recipes in `brand/audio.json` write to `audio/sfx/…`, but the script copies from `brand/sfx/…`, so the first recipe fails with "No such file or directory". I didn't edit the kit. I ran the drone recipe by hand with the output path changed to `brand/sfx/drone.wav` and copied it to `video/public/sfx/` (both gitignored). The other SFX were already committed and are unchanged.
+- **Mastering:** the single-pass command in CLAUDE.md (`loudnorm=I=-14:TP=-2.0:LRA=11`) gave −14.5 LUFS and −1.8 dBTP. I used a two-pass `loudnorm` instead (measured pass, then `I=-14:TP=-1.5:LRA=11` with the measured values and `offset=0.38`), which lands at −14.1 LUFS and −1.3 dBTP. Both meet the ≤ −1.0 dBTP ceiling; this one is closer to −14. No stamp needed a clip-gain ride. The video stream is copied unchanged.
 - **Studio scrub:** this is a headless container, so instead of scrubbing in Remotion Studio I checked motion with frame strips (5 frames across the line) for S07, S09, S12, S16, S18b, S23b, S29, S41, S43, S48–S52, SLIP1, S61, S61b, S62, S64, S69, S70, S74 and S75.
 
 ### Layout changes in `scenes.json` (no line text touched)
@@ -89,4 +90,9 @@ The asset test sheets (`reports/asset-sheets/*.png`) show every state, a 360 px 
 - `brand/voice.json → chosen.slipTreatment` still says "the slip line (L070)" (that was 0001's id). The slip lines actually come from `meta.slipLines` (L066 here), so it has no effect.
 
 ## Verification
-__VERIFY__
+- `cd video && npx tsc --noEmit`: clean.
+- `node scripts/validate.mjs --ep 0003`: **0 errors, 0 warnings**. `--ep 0001`: 0 errors, plus 10 earlier warnings about close-up corners at y=860, which 0001's `liftCloseUps` patch handles at render time.
+- `node scripts/check-reference.mjs`: characters, props, layout and cards all at **SSIM 1.0000** (the kit is untouched).
+- **Advisory 0001 still renders:** frames 4500–4589 to MP4 (H.264 + AAC) and the end-card still, with no errors. I did not do a full render of 0001.
+- **Final file:** `ffprobe` reports 1920×1080, 30 fps, H.264 + AAC 48 kHz, 294.1 s. I spot-checked frames from SLIP1 (greyscale), S61, S74 and the end card.
+- **OpenRouter spend** for this advisory: **$0.41** (key usage minus the baseline in `reports/budget.json`).
